@@ -1,0 +1,11 @@
+{
+  "name":"Japão 2026 · Guia de Bolso",
+  "short_name":"Japão Pocket",
+  "description":"Roteiros turísticos do Japão com uso offline",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f5f7f8",
+  "theme_color":"#14263c",
+  "icons":[{"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}

@@ -1,0 +1,12 @@
+{
+  "siteTitle": "Japão 2026",
+  "days": [
+    {
+      "id": "tokyo-03",
+      "file": "tokyo-03.json",
+      "date": "2026-11-20",
+      "label": "Dia 3 · Tóquio",
+      "subtitle": "Asakusa → Kappabashi → Kuramae → Akihabara"
+    }
+  ]
+}
