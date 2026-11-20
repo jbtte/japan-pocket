@@ -1,6 +1,6 @@
 /* Offline shell, plus content cached by the Save offline button. */
-const SHELL='japao-pocket-shell-v1';
-const CONTENT='japao-pocket-content-v1';
+const SHELL='japao-pocket-shell-v2';
+const CONTENT='japao-pocket-content-v2';
 const ASSETS=['./','./index.html','./assets/style.css','./assets/app.js','./icons/icon.svg','./manifest.webmanifest','./data/days.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('japao-pocket-') && ![SHELL,CONTENT].includes(k)).map(k=>caches.delete(k)))),self.clients.claim()]))});

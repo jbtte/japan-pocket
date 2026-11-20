@@ -54,3 +54,14 @@ Para testar/visualizar localmente antes de publicar: `python3 scripts/build_inde
 - Dados e links do JSON são publicados: não inclua segredos ou informações privadas.
 - Para instalação PWA consistente entre navegadores, pode ser necessário acrescentar ícones PNG 192/512 ao manifest; o atalho à tela inicial pode funcionar sem isso.
 - Se o GitHub Pages ainda não estiver configurado, o workflow não conseguirá publicar até escolher **Source: GitHub Actions** em Settings → Pages.
+
+## Informações do dia (v2)
+
+Cada JSON pode conter `dayInfo`, exibido em **um único cartão recolhível** logo antes do passo a passo:
+
+- `dayInfo.weather`: previsão registrada, data da atualização e link para consulta. O site não busca previsão automaticamente, para preservar a leitura offline; não informe uma previsão que não foi verificada.
+- `dayInfo.budget`: total por pessoa, itens e ressalvas (compras fora do total). Valores são estimativas de planejamento.
+- `dayInfo.suica`: saldo recomendado, gasto em transporte, margem e observações.
+- `dayInfo.tips`: avisos práticos do dia.
+
+O antigo campo `suica` continua compatível, mas os novos dias devem usar `dayInfo.suica`. Para publicar v2, substitua os arquivos do projeto e aguarde a atualização do service worker. Depois abra online e toque novamente em **Salvar todos os roteiros offline** para atualizar o conteúdo local.

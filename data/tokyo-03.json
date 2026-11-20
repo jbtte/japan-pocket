@@ -9,81 +9,256 @@
   "intro": "Templos antes das multidões, facas e cerâmica, papelaria artesanal e eletrônicos.",
   "hotel": "The Kanzashi Tokyo Asakusa",
   "source": "https://app.notion.com/p/37b94e7781aa80d686edc00db42c5c34",
-  "suica": {
-    "recommended": "¥1.000 por pessoa",
-    "estimated": "¥400–800 por pessoa para transporte",
-    "buffer": "¥1.500–2.000 para ter folga",
-    "note": "Estimativa, não tarifa calculada. Veja o saldo na catraca ou na máquina da estação. Alimentação e compras não estão incluídas."
+  "dayInfo": {
+    "weather": {
+      "summary": "A confirmar na véspera",
+      "tip": "Leve uma camada extra de roupa se estiver frio.",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥5.000–9.000",
+      "unit": "por pessoa · estimativa para o dia",
+      "items": [
+        {
+          "label": "Transporte",
+          "amount": "¥400–800"
+        },
+        {
+          "label": "Café + snack",
+          "amount": "¥800–1.500"
+        },
+        {
+          "label": "Almoço",
+          "amount": "¥1.500–2.500"
+        },
+        {
+          "label": "Jantar casual",
+          "amount": "¥2.000–3.000"
+        }
+      ],
+      "note": "Faixa aproximada para planejamento, não preços verificados. Não inclui compras, lembranças ou jantar premium."
+    },
+    "suica": {
+      "recommended": "¥1.000 por pessoa",
+      "estimated": "¥400–800 por pessoa para transporte",
+      "buffer": "¥1.500–2.000 para ter folga",
+      "note": "Estimativa, não tarifa calculada. Veja o saldo na catraca ou na máquina da estação. Alimentação e compras não estão incluídas."
+    },
+    "tips": [
+      "Passaporte para tax-free",
+      "Tenha ienes em espécie para compras pequenas"
+    ]
   },
-  "notes": ["Levar passaporte para compras tax-free.", "Ter dinheiro em espécie para lojas pequenas.", "Conferir horário de abertura antes de sair."],
+  "notes": [
+    "Levar passaporte para compras tax-free.",
+    "Ter dinheiro em espécie para lojas pequenas.",
+    "Conferir horário de abertura antes de sair."
+  ],
   "stops": [
     {
-      "id":"sensoji","time":"07h00","end":"08h15","title":"Templo Sensō-ji","kind":"Templo","priority":"essencial",
-      "context":"O grande templo budista de Asakusa. Segundo a tradição, dois pescadores encontraram no rio Sumida uma imagem de Kannon, figura associada à compaixão.",
-      "observe":"O salão principal, a fumaça do incenso e os omikuji (papéis da sorte). O começo da manhã costuma ser mais tranquilo.",
-      "location":{"query":"Sensoji Temple Asakusa Tokyo","from":"The Kanzashi Tokyo Asakusa","mode":"walking"},
-      "transport":"Do hotel, cerca de 5 min a pé.","next":"Kaminarimon e Nakamise, dentro do mesmo conjunto."
+      "id": "sensoji",
+      "time": "07h00",
+      "end": "08h15",
+      "title": "Templo Sensō-ji",
+      "kind": "Templo",
+      "priority": "essencial",
+      "context": "O grande templo budista de Asakusa. Segundo a tradição, dois pescadores encontraram no rio Sumida uma imagem de Kannon, figura associada à compaixão.",
+      "observe": "O salão principal, a fumaça do incenso e os omikuji (papéis da sorte). O começo da manhã costuma ser mais tranquilo.",
+      "location": {
+        "query": "Sensoji Temple Asakusa Tokyo",
+        "from": "The Kanzashi Tokyo Asakusa",
+        "mode": "walking"
+      },
+      "transport": "Do hotel, cerca de 5 min a pé.",
+      "next": "Kaminarimon e Nakamise, dentro do mesmo conjunto."
     },
     {
-      "id":"kaminarimon","time":"08h15","title":"Kaminarimon e Nakamise","kind":"Portão e rua comercial","priority":"essencial",
-      "context":"Kaminarimon, o Portão do Trovão, é um símbolo de Asakusa. Nakamise é a via comercial tradicional que leva ao templo.",
-      "observe":"A enorme lanterna vermelha, os guardiões do vento e do trovão e as fachadas das lojas. Muitas só abrem depois das 9h.",
-      "location":{"query":"Kaminarimon Tokyo","from":"Sensoji Temple Asakusa Tokyo","mode":"walking"},
-      "transport":"Caminhe pelo complexo; sem metrô.","next":"Café da manhã em Asakusa."
+      "id": "kaminarimon",
+      "time": "08h15",
+      "title": "Kaminarimon e Nakamise",
+      "kind": "Portão e rua comercial",
+      "priority": "essencial",
+      "context": "Kaminarimon, o Portão do Trovão, é um símbolo de Asakusa. Nakamise é a via comercial tradicional que leva ao templo.",
+      "observe": "A enorme lanterna vermelha, os guardiões do vento e do trovão e as fachadas das lojas. Muitas só abrem depois das 9h.",
+      "location": {
+        "query": "Kaminarimon Tokyo",
+        "from": "Sensoji Temple Asakusa Tokyo",
+        "mode": "walking"
+      },
+      "transport": "Caminhe pelo complexo; sem metrô.",
+      "next": "Café da manhã em Asakusa."
     },
     {
-      "id":"cafe","time":"08h30","end":"09h30","title":"Café da manhã em Asakusa","kind":"Refeição","priority":"flexivel",
-      "context":"Uma oportunidade para experimentar doces japoneses e bebidas com matcha. Hatoya e Sawawa são sugestões, mas o horário de abertura deve ser conferido.",
-      "observe":"Experimente matcha latte e mochi se encontrar uma loja aberta; não espere por uma loja fechada.",
-      "location":{"query":"breakfast cafe Asakusa Tokyo","from":"Kaminarimon Tokyo","mode":"walking"},
-      "transport":"Caminhe pelo bairro e escolha uma opção aberta.","next":"Kappabashi, cerca de 15–20 min a pé.",
-      "foods":[{"name":"Jumbo melon-pan","place":"Asakusa Kagetsudo","why":"Pão doce japonês crocante por fora e macio por dentro; é uma especialidade famosa de Asakusa. Não tem sabor de melão.","query":"Asakusa Kagetsudo Main Store Tokyo","optional":true}]
+      "id": "cafe",
+      "time": "08h30",
+      "end": "09h30",
+      "title": "Café da manhã em Asakusa",
+      "kind": "Refeição",
+      "priority": "flexivel",
+      "context": "Uma oportunidade para experimentar doces japoneses e bebidas com matcha. Hatoya e Sawawa são sugestões, mas o horário de abertura deve ser conferido.",
+      "observe": "Experimente matcha latte e mochi se encontrar uma loja aberta; não espere por uma loja fechada.",
+      "location": {
+        "query": "breakfast cafe Asakusa Tokyo",
+        "from": "Kaminarimon Tokyo",
+        "mode": "walking"
+      },
+      "transport": "Caminhe pelo bairro e escolha uma opção aberta.",
+      "next": "Kappabashi, cerca de 15–20 min a pé.",
+      "foods": [
+        {
+          "name": "Jumbo melon-pan",
+          "place": "Asakusa Kagetsudo",
+          "why": "Pão doce japonês crocante por fora e macio por dentro; é uma especialidade famosa de Asakusa. Não tem sabor de melão.",
+          "query": "Asakusa Kagetsudo Main Store Tokyo",
+          "optional": true
+        }
+      ]
     },
     {
-      "id":"kappabashi","time":"10h00","end":"11h30","title":"Kappabashi — facas e cerâmicas","kind":"Comércio tradicional","priority":"essencial",
-      "context":"A Kitchen Town reúne lojas especializadas em equipamentos de cozinha, incluindo facas e cerâmicas. Ótimo lugar para observar o artesanato aplicado a objetos do dia a dia.",
-      "observe":"Na Tsubaya, compare os formatos de facas; na Kamata, pergunte sobre afiação; na Dengama, observe as texturas e a assimetria das tigelas.",
-      "location":{"query":"Kappabashi Dougu Street Tokyo","from":"Kaminarimon Tokyo","mode":"walking"},
-      "transport":"De Asakusa, cerca de 15–20 min a pé.","next":"Kakimori, em Kuramae: caminhada de aproximadamente 20–30 min.",
-      "links":[{"label":"Tsubaya","query":"Tsubaya Knives Kappabashi Tokyo"},{"label":"Kamata","query":"Kamata Hakensha Kappabashi Tokyo"},{"label":"Dengama","query":"Dengama Kappabashi Tokyo"}]
+      "id": "kappabashi",
+      "time": "10h00",
+      "end": "11h30",
+      "title": "Kappabashi — facas e cerâmicas",
+      "kind": "Comércio tradicional",
+      "priority": "essencial",
+      "context": "A Kitchen Town reúne lojas especializadas em equipamentos de cozinha, incluindo facas e cerâmicas. Ótimo lugar para observar o artesanato aplicado a objetos do dia a dia.",
+      "observe": "Na Tsubaya, compare os formatos de facas; na Kamata, pergunte sobre afiação; na Dengama, observe as texturas e a assimetria das tigelas.",
+      "location": {
+        "query": "Kappabashi Dougu Street Tokyo",
+        "from": "Kaminarimon Tokyo",
+        "mode": "walking"
+      },
+      "transport": "De Asakusa, cerca de 15–20 min a pé.",
+      "next": "Kakimori, em Kuramae: caminhada de aproximadamente 20–30 min.",
+      "links": [
+        {
+          "label": "Tsubaya",
+          "query": "Tsubaya Knives Kappabashi Tokyo"
+        },
+        {
+          "label": "Kamata",
+          "query": "Kamata Hakensha Kappabashi Tokyo"
+        },
+        {
+          "label": "Dengama",
+          "query": "Dengama Kappabashi Tokyo"
+        }
+      ]
     },
     {
-      "id":"kakimori","time":"11h45","end":"12h30","title":"Kakimori — papelaria","kind":"Papelaria artesanal","priority":"opcional",
-      "context":"Papelaria conhecida por cadernos sob medida e tintas para caneta-tinteiro. Um exemplo do cuidado com os objetos cotidianos no Japão.",
-      "observe":"Escolher capa, papel e encadernação; ver as opções de tintas e as etapas do processo de montagem.",
-      "location":{"query":"Kakimori Kuramae Tokyo","from":"Kappabashi Dougu Street Tokyo","mode":"walking"},
-      "transport":"Kappabashi → Kuramae: cerca de 20–30 min a pé.","next":"Almoço em Kuramae."
+      "id": "kakimori",
+      "time": "11h45",
+      "end": "12h30",
+      "title": "Kakimori — papelaria",
+      "kind": "Papelaria artesanal",
+      "priority": "opcional",
+      "context": "Papelaria conhecida por cadernos sob medida e tintas para caneta-tinteiro. Um exemplo do cuidado com os objetos cotidianos no Japão.",
+      "observe": "Escolher capa, papel e encadernação; ver as opções de tintas e as etapas do processo de montagem.",
+      "location": {
+        "query": "Kakimori Kuramae Tokyo",
+        "from": "Kappabashi Dougu Street Tokyo",
+        "mode": "walking"
+      },
+      "transport": "Kappabashi → Kuramae: cerca de 20–30 min a pé.",
+      "next": "Almoço em Kuramae."
     },
     {
-      "id":"lunch","time":"12h30","end":"13h30","title":"Almoço — Ramen Kai","kind":"Refeição","priority":"flexivel",
-      "context":"Casa de ramen conhecida por seu caldo à base de mariscos, diferente dos caldos mais comuns de porco.",
-      "observe":"Peça o Kai Shio Ramen (貝塩らーめん), se disponível. Pode haver fila; use um restaurante próximo como alternativa.",
-      "location":{"query":"Ramen Kai Kuramae Tokyo","from":"Kakimori Kuramae Tokyo","mode":"walking"},
-      "transport":"A pé pela região de Kuramae.","next":"Akihabara; prefira transporte público.",
-      "foods":[{"name":"Kai Shio Ramen","place":"Ramen Kai","why":"Ramen salgado com caldo à base de mariscos.","query":"Ramen Kai Kuramae Tokyo"}]
+      "id": "lunch",
+      "time": "12h30",
+      "end": "13h30",
+      "title": "Almoço — Ramen Kai",
+      "kind": "Refeição",
+      "priority": "flexivel",
+      "context": "Casa de ramen conhecida por seu caldo à base de mariscos, diferente dos caldos mais comuns de porco.",
+      "observe": "Peça o Kai Shio Ramen (貝塩らーめん), se disponível. Pode haver fila; use um restaurante próximo como alternativa.",
+      "location": {
+        "query": "Ramen Kai Kuramae Tokyo",
+        "from": "Kakimori Kuramae Tokyo",
+        "mode": "walking"
+      },
+      "transport": "A pé pela região de Kuramae.",
+      "next": "Akihabara; prefira transporte público.",
+      "foods": [
+        {
+          "name": "Kai Shio Ramen",
+          "place": "Ramen Kai",
+          "why": "Ramen salgado com caldo à base de mariscos.",
+          "query": "Ramen Kai Kuramae Tokyo"
+        }
+      ]
     },
     {
-      "id":"yodobashi","time":"14h00","end":"15h15","title":"Yodobashi Akiba","kind":"Eletrônicos","priority":"essencial",
-      "context":"Uma grande loja de tecnologia onde vale comparar aparelhos, acessórios e equipamentos com preços locais.",
-      "observe":"Câmeras e lentes Micro 4/3, fones e gadgets. Conferir garantia e compatibilidade antes de comprar.",
-      "location":{"query":"Yodobashi Akiba Tokyo","from":"Ramen Kai Kuramae Tokyo","mode":"transit"},
-      "transport":"Kuramae → Akihabara: escolha o melhor trem/metrô no Maps.","next":"Super Potato, a pé por Akihabara."
+      "id": "yodobashi",
+      "time": "14h00",
+      "end": "15h15",
+      "title": "Yodobashi Akiba",
+      "kind": "Eletrônicos",
+      "priority": "essencial",
+      "context": "Uma grande loja de tecnologia onde vale comparar aparelhos, acessórios e equipamentos com preços locais.",
+      "observe": "Câmeras e lentes Micro 4/3, fones e gadgets. Conferir garantia e compatibilidade antes de comprar.",
+      "location": {
+        "query": "Yodobashi Akiba Tokyo",
+        "from": "Ramen Kai Kuramae Tokyo",
+        "mode": "transit"
+      },
+      "transport": "Kuramae → Akihabara: escolha o melhor trem/metrô no Maps.",
+      "next": "Super Potato, a pé por Akihabara."
     },
     {
-      "id":"superpotato","time":"15h15","end":"16h30","title":"Super Potato","kind":"Videogames retrô","priority":"opcional",
-      "context":"Uma parada pela história dos videogames japoneses, com consoles, cartuchos e máquinas de arcade.",
-      "observe":"Famicom, Super Famicom e jogos clássicos. Se houver arcade funcionando, jogar uma partida.",
-      "location":{"query":"Super Potato Akihabara Tokyo","from":"Yodobashi Akiba Tokyo","mode":"walking"},
-      "transport":"Caminhada curta por Akihabara.","next":"Voltar ao hotel para descansar; jantar às 19h.",
-      "foods":[{"name":"Taiyaki","place":"Kurikoan Akihabara","why":"Bolinho em formato de peixe, tradicionalmente recheado com pasta doce de feijão vermelho.","query":"Kurikoan Akihabara Tokyo","optional":true}]
+      "id": "superpotato",
+      "time": "15h15",
+      "end": "16h30",
+      "title": "Super Potato",
+      "kind": "Videogames retrô",
+      "priority": "opcional",
+      "context": "Uma parada pela história dos videogames japoneses, com consoles, cartuchos e máquinas de arcade.",
+      "observe": "Famicom, Super Famicom e jogos clássicos. Se houver arcade funcionando, jogar uma partida.",
+      "location": {
+        "query": "Super Potato Akihabara Tokyo",
+        "from": "Yodobashi Akiba Tokyo",
+        "mode": "walking"
+      },
+      "transport": "Caminhada curta por Akihabara.",
+      "next": "Voltar ao hotel para descansar; jantar às 19h.",
+      "foods": [
+        {
+          "name": "Taiyaki",
+          "place": "Kurikoan Akihabara",
+          "why": "Bolinho em formato de peixe, tradicionalmente recheado com pasta doce de feijão vermelho.",
+          "query": "Kurikoan Akihabara Tokyo",
+          "optional": true
+        }
+      ]
     },
     {
-      "id":"dinner","time":"19h00","title":"Jantar — yakiniku","kind":"Refeição","priority":"flexivel",
-      "context":"No yakiniku, cada pessoa grelha a carne em sua própria mesa, escolhendo cortes e acompanhamentos.",
-      "observe":"Experimente karubi e rosu para comparar sabores; na opção especial, procure cortes de wagyu.",
-      "location":{"query":"Yakiniku Like Asakusa Tokyo","from":"The Kanzashi Tokyo Asakusa","mode":"walking"},
-      "transport":"Depois de descansar no hotel, caminhe até a opção escolhida.","next":"Voltar ao The Kanzashi Tokyo Asakusa.",
-      "foods":[{"name":"Yakiniku Like Asakusa","place":"Opção casual","why":"Estimativa do roteiro: ¥2.000–3.000 por pessoa.","query":"Yakiniku Like Asakusa Tokyo"},{"name":"USHIHACHI Ueno","place":"Opção especial","why":"Estimativa do roteiro: ¥5.000–8.000 por pessoa.","query":"USHIHACHI Ueno Tokyo"}]
+      "id": "dinner",
+      "time": "19h00",
+      "title": "Jantar — yakiniku",
+      "kind": "Refeição",
+      "priority": "flexivel",
+      "context": "No yakiniku, cada pessoa grelha a carne em sua própria mesa, escolhendo cortes e acompanhamentos.",
+      "observe": "Experimente karubi e rosu para comparar sabores; na opção especial, procure cortes de wagyu.",
+      "location": {
+        "query": "Yakiniku Like Asakusa Tokyo",
+        "from": "The Kanzashi Tokyo Asakusa",
+        "mode": "walking"
+      },
+      "transport": "Depois de descansar no hotel, caminhe até a opção escolhida.",
+      "next": "Voltar ao The Kanzashi Tokyo Asakusa.",
+      "foods": [
+        {
+          "name": "Yakiniku Like Asakusa",
+          "place": "Opção casual",
+          "why": "Estimativa do roteiro: ¥2.000–3.000 por pessoa.",
+          "query": "Yakiniku Like Asakusa Tokyo"
+        },
+        {
+          "name": "USHIHACHI Ueno",
+          "place": "Opção especial",
+          "why": "Estimativa do roteiro: ¥5.000–8.000 por pessoa.",
+          "query": "USHIHACHI Ueno Tokyo"
+        }
+      ]
     }
   ]
 }

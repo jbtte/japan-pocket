@@ -1,31 +1,83 @@
 {
-  "schemaVersion":1,
-  "id":"kyoto-01",
-  "date":"2026-11-23",
-  "dayNumber":1,
-  "city":"Kyoto",
-  "title":"Título do dia",
-  "subtitle":"Bairro A → Bairro B",
-  "intro":"Resumo de uma frase do dia.",
-  "hotel":"Nome do hotel",
-  "source":"https://app.notion.com/p/ID-DA-PAGINA",
-  "suica":{"recommended":"¥1.000 por pessoa","estimated":"¥500–800 por pessoa","buffer":"¥1.500 com folga","note":"Estimativas de transporte; compras à parte. Em outras regiões, confira compatibilidade do cartão."},
-  "notes":["Levar dinheiro em espécie."],
-  "stops":[
+  "schemaVersion": 1,
+  "id": "kyoto-01",
+  "date": "2026-11-23",
+  "dayNumber": 1,
+  "city": "Kyoto",
+  "title": "Título do dia",
+  "subtitle": "Bairro A → Bairro B",
+  "intro": "Resumo de uma frase do dia.",
+  "hotel": "Nome do hotel",
+  "source": "https://app.notion.com/p/ID-DA-PAGINA",
+  "dayInfo": {
+    "weather": {
+      "summary": "A confirmar antes do passeio",
+      "temperature": "",
+      "rain": "",
+      "tip": "",
+      "updatedAt": "",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥…–…",
+      "unit": "por pessoa · estimativa para o dia",
+      "items": [
+        {
+          "label": "Transporte",
+          "amount": "¥…"
+        },
+        {
+          "label": "Alimentação",
+          "amount": "¥…"
+        }
+      ],
+      "note": "Não inclui compras. Separar estimativas de preços verificados."
+    },
+    "suica": {
+      "recommended": "¥1.000 por pessoa",
+      "estimated": "¥500–800 por pessoa",
+      "buffer": "¥1.500 com folga",
+      "note": "Estimativas de transporte; compras à parte. Em outras regiões, confira compatibilidade do cartão."
+    },
+    "tips": [
+      "Passaporte e algum dinheiro em espécie."
+    ]
+  },
+  "notes": [
+    "Levar dinheiro em espécie."
+  ],
+  "stops": [
     {
-      "id":"primeira-parada",
-      "time":"08h00",
-      "end":"09h30",
-      "title":"Nome do lugar",
-      "kind":"Templo / museu / refeição / loja",
-      "priority":"essencial",
-      "context":"Duas frases sobre a importância histórica ou cultural do local.",
-      "observe":"Uma ou duas coisas concretas para observar ou experimentar.",
-      "location":{"query":"Place name, Kyoto Japan","from":"Hotel name Kyoto Japan","mode":"walking"},
-      "transport":"Do hotel, a pé, aproximadamente 10 min.",
-      "next":"Próxima parada e deslocamento.",
-      "links":[{"label":"Loja no local","query":"Shop name Kyoto Japan"}],
-      "foods":[{"name":"Snack ou prato","place":"Restaurante / loja","why":"Por que vale experimentar","query":"Restaurant Kyoto Japan","optional":true}]
+      "id": "primeira-parada",
+      "time": "08h00",
+      "end": "09h30",
+      "title": "Nome do lugar",
+      "kind": "Templo / museu / refeição / loja",
+      "priority": "essencial",
+      "context": "Duas frases sobre a importância histórica ou cultural do local.",
+      "observe": "Uma ou duas coisas concretas para observar ou experimentar.",
+      "location": {
+        "query": "Place name, Kyoto Japan",
+        "from": "Hotel name Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Do hotel, a pé, aproximadamente 10 min.",
+      "next": "Próxima parada e deslocamento.",
+      "links": [
+        {
+          "label": "Loja no local",
+          "query": "Shop name Kyoto Japan"
+        }
+      ],
+      "foods": [
+        {
+          "name": "Snack ou prato",
+          "place": "Restaurante / loja",
+          "why": "Por que vale experimentar",
+          "query": "Restaurant Kyoto Japan",
+          "optional": true
+        }
+      ]
     }
   ]
 }

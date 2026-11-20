@@ -4,7 +4,7 @@ const mapsSearch = q => 'https://www.google.com/maps/search/?api=1&query=' + enc
 const mapsDirections = l => 'https://www.google.com/maps/dir/?api=1&origin=' + encodeURIComponent(l.from || l.query) + '&destination=' + encodeURIComponent(l.query) + '&travelmode=' + (['walking','transit','driving','bicycling'].includes(l.mode) ? l.mode : 'walking');
 const escapeHtml = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const priorityLabel = {essencial:'Essencial',opcional:'Opcional',flexivel:'Flexível'};
-const APP_CACHE = 'japao-pocket-content-v1';
+const APP_CACHE = 'japao-pocket-content-v2';
 let catalog = null, current = null, registration = null;
 function dateHuman(date) {const d=new Date(date+'T12:00:00'); return Number.isNaN(d.getTime())?date:new Intl.DateTimeFormat('pt-BR',{weekday:'long',day:'2-digit',month:'long',timeZone:'UTC'}).format(d)}
 async function readJSON(path) {const response=await fetch(path); if(!response.ok)throw Error(`Não foi possível abrir ${path}`);return response.json()}
@@ -13,7 +13,23 @@ function updateProgress(){if(!current)return;const ids=new Set(current.stops.map
 function foodBlock(food){return `<div class="food"><strong>🍡 ${escapeHtml(food.name)}${food.optional?' · opcional':''}</strong><p>${escapeHtml(food.why)}</p><a href="${mapsSearch(food.query)}" target="_blank" rel="noopener noreferrer">📍 ${escapeHtml(food.place)} no Maps</a></div>`}
 function stopBlock(s,index,dayId){const complete=localStorage.getItem('done:'+dayId+':'+s.id)==='1';const extras=(s.links||[]).map(l=>`<a target="_blank" rel="noopener noreferrer" href="${mapsSearch(l.query)}">📍 ${escapeHtml(l.label)}</a>`).join('');return `<details class="card ${complete?'done':''}" ${index===0?'open':''}><summary><span class="hour">${escapeHtml(s.time)}</span><span class="titlebox"><span class="name">${escapeHtml(s.title)}</span><div class="hint">${escapeHtml(s.kind)}${s.end?' · até '+escapeHtml(s.end):''}</div><span class="priority">${escapeHtml(priorityLabel[s.priority]||'Parada')}</span></span><span class="chevron" aria-hidden="true">⌄</span></summary><div class="details"><p>${escapeHtml(s.context)}</p><div class="observe"><strong>Não deixe passar:</strong> ${escapeHtml(s.observe)}</div>${s.transport?`<div class="transport">🚶 ${escapeHtml(s.transport)}</div>`:''}${extras?`<div class="subplaces">${extras}</div>`:''}${(s.foods||[]).map(foodBlock).join('')}<div class="actions"><a class="btn" target="_blank" rel="noopener noreferrer" href="${mapsDirections(s.location)}">↗ Como chegar</a><a class="btn secondary" target="_blank" rel="noopener noreferrer" href="${mapsSearch(s.location.query)}">Ver local</a></div><label class="check"><input type="checkbox" data-stop="${escapeHtml(s.id)}" ${complete?'checked':''}> Já visitamos</label>${s.next?`<div class="next"><b>Próxima parada:</b> ${escapeHtml(s.next)}</div>`:''}</div></details>`}
 function render(day){current=day;document.title=`${day.title} · Japão 2026`;$('heading').textContent=day.title;$('subtitle').textContent=day.subtitle;$('dateLabel').textContent=`DIA ${String(day.dayNumber).padStart(2,'0')} · ${dateHuman(day.date)}`;$('introTitle').textContent=day.city+' · roteiro do dia';$('introText').textContent=day.intro;$('stops').innerHTML=day.stops.map((s,i)=>stopBlock(s,i,day.id)).join('');$('stops').querySelectorAll('input[data-stop]').forEach(input=>input.addEventListener('change',()=>{localStorage.setItem('done:'+day.id+':'+input.dataset.stop,input.checked?'1':'0');input.closest('.card').classList.toggle('done',input.checked);updateProgress()}));updateProgress();
-const suica=day.suica;$('suica').hidden=!suica;if(suica)$('suica').innerHTML=`<h2>🚇 Quanto deixar no Suica?</h2><div class="amount">${escapeHtml(suica.recommended)}</div><p><strong>Transporte estimado:</strong> ${escapeHtml(suica.estimated)}</p><p><strong>Com folga:</strong> ${escapeHtml(suica.buffer)}</p><p class="small">${escapeHtml(suica.note)}</p>`;
+const dayInfo=day.dayInfo||{};
+const suica=dayInfo.suica||day.suica;
+const weather=dayInfo.weather;
+const budget=dayInfo.budget;
+const infoSections=[];
+if(weather){
+ const detail=[weather.summary,weather.temperature,weather.rain,weather.tip].filter(Boolean).map(escapeHtml).join(' · ');
+ infoSections.push(`<section class="info-block"><h3>🌤️ Previsão do tempo</h3><p>${detail||'Previsão ainda não informada.'}</p>${weather.updatedAt?`<p class="small">Atualizado em ${escapeHtml(weather.updatedAt)} (horário local). Previsão registrada no roteiro, não atualização automática.</p>`:'<p class="small">Previsão ainda não verificada. Atualize o JSON antes do passeio.</p>'}${weather.url?`<a href="${escapeHtml(weather.url)}" target="_blank" rel="noopener noreferrer">Consultar previsão atual ↗</a>`:''}</section>`);
+}
+if(budget){
+ const parts=(budget.items||[]).map(i=>`<li><span>${escapeHtml(i.label)}</span><strong>${escapeHtml(i.amount)}</strong></li>`).join('');
+ infoSections.push(`<section class="info-block"><h3>💴 Orçamento estimado</h3>${budget.total?`<div class="info-value">${escapeHtml(budget.total)}</div>`:''}${budget.unit?`<p class="small">${escapeHtml(budget.unit)}</p>`:''}${parts?`<ul class="budget-items">${parts}</ul>`:''}${budget.note?`<p class="small">${escapeHtml(budget.note)}</p>`:''}</section>`);
+}
+if(suica){infoSections.push(`<section class="info-block"><h3>🚇 Cartão Suica</h3><div class="info-value">${escapeHtml(suica.recommended)}</div><p><strong>Transporte:</strong> ${escapeHtml(suica.estimated)}</p><p><strong>Com folga:</strong> ${escapeHtml(suica.buffer)}</p><p class="small">${escapeHtml(suica.note)}</p></section>`)}
+if(dayInfo.tips?.length){infoSections.push(`<section class="info-block"><h3>🎒 Informações práticas</h3><ul class="info-tips">${dayInfo.tips.map(v=>'<li>'+escapeHtml(v)+'</li>').join('')}</ul></section>`)}
+$('dayInfo').hidden=infoSections.length===0;
+$('dayInfoBody').innerHTML=infoSections.join('');
 $('notes').hidden=!(day.notes||[]).length;if(day.notes?.length)$('notes').innerHTML='<strong>Antes de sair</strong><ul>'+day.notes.map(n=>'<li>'+escapeHtml(n)+'</li>').join('')+'</ul>';
 $('source').hidden=!day.source;if(day.source)$('source').href=day.source;
 $('loading').hidden=true;$('dayContent').hidden=false;}
