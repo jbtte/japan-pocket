@@ -7,6 +7,13 @@
       "date": "2026-11-20",
       "label": "Dia 3 · Tóquio",
       "subtitle": "Asakusa → Kappabashi → Kuramae → Akihabara"
+    },
+    {
+      "id": "tokyo-04",
+      "file": "tokyo-04.json",
+      "date": "2026-11-21",
+      "label": "Dia 4 · Tóquio",
+      "subtitle": "Tsukiji → Hamarikyū → Toyosu → Marunouchi → Nihonbashi"
     }
   ]
 }

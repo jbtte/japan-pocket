@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "tokyo-04",
+  "date": "2026-11-21",
+  "dayNumber": 4,
+  "city": "Tóquio",
+  "title": "Baía, jardins e arte",
+  "subtitle": "Tsukiji → Hamarikyū → Toyosu → Marunouchi → Nihonbashi",
+  "intro": "Comida de rua em Tsukiji, jardim histórico à beira da baía e teamLab Planets com ingresso reservado para as 14h.",
+  "hotel": "The Kanzashi Tokyo Asakusa",
+  "source": "https://app.notion.com/p/37b94e7781aa80bea151e68bcd66e85f",
+  "dayInfo": {
+    "weather": {
+      "summary": "Previsões consultadas divergiram: de sol e frio a possibilidade de chuva.",
+      "temperature": "Cerca de 6–17 °C (faixa entre fontes; não uma previsão única)",
+      "rain": "Possibilidade de chuva incerta; confira pela manhã.",
+      "tip": "Camadas de roupa e guarda-chuva compacto. Jardins ao ar livre; teamLab é coberto.",
+      "updatedAt": "2026-11-20",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥6.000–10.500",
+      "unit": "por pessoa · sem compras nem ingresso já pago do teamLab",
+      "items": [
+        {
+          "label": "Transporte",
+          "amount": "¥700–1.200"
+        },
+        {
+          "label": "Comidas em Tsukiji / café",
+          "amount": "¥1.000–2.000"
+        },
+        {
+          "label": "Hamarikyū + chá",
+          "amount": "¥1.000–1.500"
+        },
+        {
+          "label": "Almoço",
+          "amount": "¥1.500–2.500"
+        },
+        {
+          "label": "Jantar",
+          "amount": "¥1.500–2.500"
+        }
+      ],
+      "note": "Estimativas de planejamento, não cotações confirmadas. Ingresso do teamLab (¥4.800/pessoa, segundo o Notion) já comprado; compras, bagagem e eventuais táxis não incluídos."
+    },
+    "suica": {
+      "recommended": "¥1.500 por pessoa",
+      "estimated": "¥700–1.200 de transporte",
+      "buffer": "¥2.000 por pessoa para folga",
+      "note": "A maior parte do gasto em Tsukiji e restaurantes é separada; algumas barracas preferem dinheiro. Valores de transporte aproximados."
+    },
+    "tips": [
+      "Ingresso teamLab 14h–14h30: planejar chegada por volta de 13h40.",
+      "Experiência do teamLab é descalço: retirar sapatos e meias nos vestiários; há trechos com água.",
+      "Última noite em Asakusa: separar malas para envio a Kyoto e bagagem leve de Hakone.",
+      "Levar passaporte, bateria carregada e algum dinheiro vivo."
+    ]
+  },
+  "notes": [
+    "Missões: Tsukiji cedo e teamLab Planets com entrada reservada 14h–14h30.",
+    "Os jardins podem ser encurtados se o almoço ou transporte atrasarem.",
+    "No retorno, confirmar com hotel o envio Takkyūbin para Kyoto; conferir nome e endereço do hotel de destino.",
+    "Atenção: no roteiro original, o Tonkatsu Yachiyo estava após Hamarikyū; reorganizado para evitar voltar de última hora e perder o teamLab."
+  ],
+  "stops": [
+    {
+      "id": "tsukiji",
+      "time": "08h00",
+      "end": "09h30",
+      "title": "Tsukiji Outer Market — café da manhã",
+      "kind": "Mercado gastronômico",
+      "priority": "essencial",
+      "context": "O antigo mercado atacadista de peixes mudou para Toyosu, mas o mercado externo de Tsukiji manteve barracas de comida, lojas de facas e comércio tradicional. De manhã é mais interessante.",
+      "observe": "Comece por um tamagoyaki (omelete japonesa levemente doce), observe a preparação na chapa e experimente um petisco de frutos do mar. Evite comer bloqueando a circulação.",
+      "location": {
+        "query": "Tsukiji Outer Market Tokyo Japan",
+        "from": "The Kanzashi Tokyo Asakusa Tokyo",
+        "mode": "transit"
+      },
+      "transport": "Do hotel em Asakusa, trem/metrô até a região de Tsukiji/Higashi-ginza; reserve cerca de 35–45 min porta a porta e confira o trajeto no Maps.",
+      "next": "Almoço cedo na região de Tsukiji ou Hamarikyū, a ~15–20 min caminhando.",
+      "foods": [
+        {
+          "name": "Tamagoyaki no palito",
+          "place": "Yamachō (Tsukiji)",
+          "why": "Omelete japonesa feita em camadas, doce e macia; um clássico para provar enquanto passeia.",
+          "query": "Yamacho Tamagoyaki Tsukiji Tokyo",
+          "optional": false
+        },
+        {
+          "name": "Sushi ou nigiri fresco",
+          "place": "Sushi Zanmai Tsukiji (ou balcão aberto)",
+          "why": "No mercado, vale pedir poucas peças de atum e peixe da estação, em vez de um almoço longo.",
+          "query": "Sushi Zanmai Tsukiji Tokyo",
+          "optional": true
+        },
+        {
+          "name": "Espetinho de frutos do mar",
+          "place": "Barracas de Tsukiji",
+          "why": "Snack típico para provar a variedade do mercado.",
+          "query": "Tsukiji Outer Market Tokyo",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "hamarikyu",
+      "time": "09h45",
+      "end": "11h10",
+      "title": "Jardins Hamarikyū e casa de chá",
+      "kind": "Jardim histórico",
+      "priority": "essencial",
+      "context": "Antigo jardim dos xoguns Tokugawa à beira da baía, com lagoa abastecida por água do mar. A vista dos arranha-céus atrás das árvores mostra o contraste entre Edo e Tóquio moderna. Abre normalmente às 9h.",
+      "observe": "Caminhe ao redor do lago Shioiri-no-ike, procure o pinheiro antigo e pare no Nakajima-no-Ochaya para matcha com wagashi.",
+      "location": {
+        "query": "Hamarikyu Gardens Tokyo",
+        "from": "Tsukiji Outer Market Tokyo",
+        "mode": "walking"
+      },
+      "transport": "De Tsukiji, aproximadamente 15–20 min caminhando até a entrada adequada.",
+      "next": "Almoço rápido; depois saída para teamLab até ~13h10.",
+      "foods": [
+        {
+          "name": "Matcha e wagashi",
+          "place": "Nakajima-no-Ochaya",
+          "why": "Chá verde batido com doce sazonal, servido no pavilhão sobre a lagoa.",
+          "query": "Nakajima no Ochaya Hamarikyu Gardens Tokyo",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "time": "11h25",
+      "end": "12h20",
+      "title": "Almoço — tonkatsu ou alternativa próxima",
+      "kind": "Refeição",
+      "priority": "flexivel",
+      "context": "Tonkatsu é a costeleta suína empanada em panko, crocante por fora e suculenta por dentro. O Notion sugere Tonkatsu Yachiyo em Tsukiji, mas a disponibilidade e o horário da casa não foram confirmados.",
+      "observe": "Se o Yachiyo estiver funcionando sem fila longa, peça o tonkatsu ou uma fritura da casa. Se não, escolha um restaurante próximo e preserve o horário do teamLab.",
+      "location": {
+        "query": "Tonkatsu Yachiyo Tsukiji Tokyo",
+        "from": "Hamarikyu Gardens Tokyo",
+        "mode": "walking"
+      },
+      "transport": "Atenção: a opção sugerida fica na região de Tsukiji, exigindo voltar do jardim. Se preferir, almoce em Shiodome ou perto do caminho para Shin-Toyosu.",
+      "next": "Sair até ~12h45–13h00 rumo a Shin-Toyosu; chegada pretendida 13h40.",
+      "foods": [
+        {
+          "name": "Tonkatsu / fritura japonesa",
+          "place": "Yachiyo, região de Tsukiji (confirmar aberto)",
+          "why": "Empanado panko de textura leve e crocante; a ideia é experimentar o prato, sem comprometer a reserva do teamLab.",
+          "query": "Yachiyo Tsukiji fried seafood tonkatsu Tokyo",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "teamlab",
+      "time": "13h40",
+      "end": "16h00",
+      "title": "teamLab Planets — ingresso às 14h",
+      "kind": "Arte imersiva · ingresso comprado",
+      "priority": "essencial",
+      "context": "Instalações digitais imersivas mudam conforme o movimento do visitante. A proposta é perceber o próprio corpo dentro da arte, usando água, espelhos, luz e espaços sensoriais.",
+      "observe": "Ingressos para 2 adultos, faixa de entrada 14h–14h30. Chegue por volta de 13h40. Nos setores aquáticos você fica descalço: sapatos e meias são retirados antes. Use roupa apropriada para caminhar na água.",
+      "location": {
+        "query": "teamLab Planets TOKYO Toyosu",
+        "from": "Hamarikyu Gardens Tokyo",
+        "mode": "transit"
+      },
+      "transport": "De Shiodome/Shimbashi, ver Yurikamome até Shin-Toyosu; da estação são poucos minutos a pé. Confira a rota específica partindo de onde almoçar.",
+      "next": "Seguir para Tokyo Station (Marunouchi) de metrô/trem, conferindo o melhor trajeto."
+    },
+    {
+      "id": "tokyostation",
+      "time": "16h30",
+      "end": "18h15",
+      "title": "Tokyo Station — Marunouchi e KITTE",
+      "kind": "Arquitetura e vista panorâmica",
+      "priority": "essencial",
+      "context": "A fachada de tijolos vermelhos da Estação de Tóquio, inaugurada em 1914, é um marco da modernização do Japão. O KITTE, no antigo edifício dos correios, tem terraço com vista da estação.",
+      "observe": "Saia pelo lado Marunouchi para ver a fachada e suba ao jardim do KITTE para fotografar o edifício de cima; ao entardecer, a iluminação é bonita.",
+      "location": {
+        "query": "Tokyo Station Marunouchi North Exit",
+        "from": "teamLab Planets TOKYO Toyosu",
+        "mode": "transit"
+      },
+      "transport": "De Shin-Toyosu, usar Yurikamome e conexões de metrô/trem; cerca de 30–45 min porta a porta, dependendo da combinação.",
+      "next": "Se houver tempo, visitar Traveler’s Factory; depois caminhar até o Tsujita em Yaesu/Nihombashi.",
+      "links": [
+        {
+          "label": "Terraço KITTE",
+          "query": "KITTE Marunouchi rooftop garden Tokyo"
+        },
+        {
+          "label": "Traveler’s Factory",
+          "query": "Travelers Factory Tokyo Station"
+        }
+      ],
+      "foods": [
+        {
+          "name": "Café ou doce sazonal",
+          "place": "KITTE Marunouchi",
+          "why": "Pausa opcional antes do jantar, sem perder a vista do terraço.",
+          "query": "KITTE Marunouchi cafes",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "time": "19h00",
+      "end": "20h00",
+      "title": "Jantar — Tsujita Nihombashi Yaesu",
+      "kind": "Tsukemen",
+      "priority": "flexivel",
+      "context": "No tsukemen, o macarrão é servido separado de um caldo concentrado. Cada porção de macarrão é mergulhada no caldo antes de comer, preservando a textura.",
+      "observe": "Peça o tsukemen clássico e experimente primeiro sem muitos condimentos. Algumas casas oferecem sudachi ou caldo mais leve ao final (soup-wari).",
+      "location": {
+        "query": "Tsujita Nihonbashi Yaesu Tokyo",
+        "from": "Tokyo Station Marunouchi",
+        "mode": "walking"
+      },
+      "transport": "Caminhada de cerca de 15–20 min dependendo da saída da estação; fique atento à diferença entre os lados Marunouchi e Yaesu.",
+      "next": "Retornar ao The Kanzashi Tokyo Asakusa e separar as malas grandes para o envio.",
+      "foods": [
+        {
+          "name": "Tsukemen clássico",
+          "place": "Tsujita Nihombashi Yaesu",
+          "why": "Macarrão firme para mergulhar em caldo rico de peixe e porco; especialidade da casa.",
+          "query": "Tsujita Nihonbashi Yaesu Tokyo",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "time": "20h30",
+      "title": "Volta ao hotel — organizar malas",
+      "kind": "Logística",
+      "priority": "essencial",
+      "context": "Amanhã, 22/11, é dia de saída de Tóquio rumo a Hakone, com uma noite no ryokan. Separar a bagagem hoje evita correria na manhã da viagem.",
+      "observe": "Confirmar prazo, etiqueta, endereço e data estimada de entrega do Takkyūbin em Kyoto. Levar mochila/mala pequena para Hakone, com uma muda de roupa e itens essenciais.",
+      "location": {
+        "query": "The Kanzashi Tokyo Asakusa",
+        "from": "Tsujita Nihonbashi Yaesu Tokyo",
+        "mode": "transit"
+      },
+      "transport": "Voltar de Nihombashi/Yaesu para Asakusa de metrô/trem e caminhar ao hotel.",
+      "next": "Amanhã: Hakone. Conferir horário do Romancecar e deslocamento até Shinjuku."
+    }
+  ]
+}
