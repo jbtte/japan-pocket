@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "id": "hakone-05",
+  "date": "2026-11-22",
+  "dayNumber": 5,
+  "city": "Hakone",
+  "title": "Montanha, onsen e kaiseki",
+  "subtitle": "Asakusa → Shinjuku → Hakone-Yumoto → Owakudani → Sōunzan → ryokan",
+  "intro": "Dia de transição para Hakone. Prioridades: Romancecar reservado, Owakudani e chegar ao Gora Hanaougi por volta das 15h–16h para aproveitar o onsen e o jantar kaiseki. Lago Ashi apenas se o horário permitir.",
+  "hotel": "Gora Hanaougi",
+  "source": "https://app.notion.com/p/37b94e7781aa8088b8ecf146d39fe336",
+  "dayInfo": {
+    "weather": {
+      "summary": "Previsão para domingo: frio na montanha, com períodos de céu aberto ou parcialmente nublado; a visibilidade do Fuji não é garantida.",
+      "temperature": "Aproximadamente 4–12 °C em Hakone; Owakudani pode parecer mais frio.",
+      "rain": "Algumas fontes apontam pouca chuva; mudanças locais são possíveis.",
+      "tip": "Casaco quente, corta-vento, camadas e sapatos confortáveis. Anoitece aproximadamente às 16h35.",
+      "updatedAt": "2026-11-21",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥2.500–5.500",
+      "unit": "por pessoa · gastos adicionais estimados, sem ryokan e transportes já pagos",
+      "items": [
+        {
+          "label": "Café da manhã e snacks",
+          "amount": "¥600–1.200"
+        },
+        {
+          "label": "Almoço leve / ovos pretos",
+          "amount": "¥1.000–2.000"
+        },
+        {
+          "label": "Extras / bebidas / imprevistos",
+          "amount": "¥900–2.300"
+        }
+      ],
+      "note": "Free Pass e suplemento Romancecar já comprados; ryokan com jantar e café da manhã incluídos na reserva. Almoço/snacks, envio de malas e eventuais táxis são adicionais. Hakone Carry Service só é necessário se a bolsa da noite estiver pesada, pois as malas grandes seguem de Tóquio direto a Kyoto."
+    },
+    "suica": {
+      "recommended": "¥1.000–1.500 por pessoa",
+      "estimated": "Transporte local em Hakone coberto majoritariamente pelo Hakone Free Pass; Suica pode ser usado para o deslocamento urbano em Tóquio e extras.",
+      "buffer": "¥2.000 por pessoa para folga",
+      "note": "Free Pass cobre grande parte dos transportes de Hakone, mas não o suplemento Romancecar (já reservado). O Suica paga o metrô em Tóquio e pequenas despesas; Carry Service e Takkyūbin são serviços pagos à parte."
+    },
+    "tips": [
+      "📦 Separar duas coisas: malas grandes enviadas de Asakusa direto a Kyoto; bolsa/mochila de uma noite levada para Hakone. Não enviar a Kyoto objetos necessários no ryokan.",
+      "🎟️ Romancecar Super Hakone 9: partida de Shinjuku 10h00, chegada Hakone-Yumoto 11h21; bilhete-base no Hakone Free Pass e assento suplementar reservado.",
+      "📱 Confirmar acesso aos dois Hakone Free Pass no EMot, cada pessoa com seu celular; verificar bilhetes antes de entrar na estação.",
+      "🧳 Hakone Carry Service em Hakone-Yumoto é opcional para despachar a bolsa da noite ao ryokan. Se utilizarem, confirmar hotel atendido e horário de aceitação no balcão; serviço é pago.",
+      "🏨 Acesso prático ao Gora Hanaougi: estação Sōunzan, saída pelo estacionamento e elevador privativo do hotel. Shuttle gratuito do hotel parte de Gora entre 14h30 e 18h, mediante ligação.",
+      "♨️ Chegar de preferência entre 15h e 16h; jantar kaiseki começa em horário atribuído entre 18h e 19h. Café da manhã entre 8h e 9h; check-out até 11h.",
+      "🚡 Conferir o funcionamento do ropeway antes do passeio; vento/atividade vulcânica podem afetar a operação.",
+      "☎️ Telefone do ryokan, se necessário: +81-460-87-7715."
+    ]
+  },
+  "notes": [
+    "Malas grandes: Takkyūbin de Asakusa direto ao Agora Kyoto Karasuma; validar entrega e comprovante. Bolsa de uma noite fica com vocês ou vai pelo Hakone Carry Service, se confirmado.",
+    "Se usarem o Carry Service, ele entrega ao ryokan após as 15h; não há motivo para passar antes por Sōunzan apenas para guardar bolsa.",
+    "O Ryokan é o centro do dia: o lago é bônus, não obrigação. Se o retorno após o cruzeiro estiver incerto, voltar de Owakudani para Sōunzan.",
+    "O Gora Hanaougi possui elevador de acesso pela estação Sōunzan; traslado gratuito da estação Gora entre 14h30 e 18h mediante telefonema.",
+    "Não colocar códigos de reserva, dados pessoais ou de bilhetes nos arquivos JSON publicados no GitHub."
+  ],
+  "stops": [
+    {
+      "id": "checkout",
+      "time": "07h00",
+      "title": "Check-out e envio das malas",
+      "kind": "Logística · essencial",
+      "priority": "essencial",
+      "context": "A noite será em Hakone; enviar a bagagem grande diretamente a Kyoto reduz muito o desgaste na montanha.",
+      "observe": "Entregar malas grandes para Kyoto (Agora Kyoto Karasuma), confirmar prazo e guardar comprovante. Levar somente uma mochila/bolsa de uma noite com roupas, carregadores e itens pessoais.",
+      "location": {
+        "query": "The Kanzashi Tokyo Asakusa, Tokyo, Japan",
+        "from": "The Kanzashi Tokyo Asakusa, Tokyo, Japan",
+        "mode": "walking"
+      },
+      "transport": "Faça o check-out e resolva o Takkyūbin antes de ir para o metrô. Não assuma entrega no dia seguinte sem confirmação.",
+      "next": "Seguir para Shinjuku; separar bilhetes do Romancecar e Hakone Free Pass antes de sair.",
+      "end": "08h05",
+      "foods": [
+        {
+          "name": "Onigiri e café",
+          "place": "Konbini perto do Kanzashi",
+          "why": "Café da manhã simples para não depender de comer no trem.",
+          "query": "7-Eleven near The Kanzashi Tokyo Asakusa",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "shinjuku",
+      "time": "08h15",
+      "title": "Ir até Shinjuku e localizar a Odakyu",
+      "kind": "Metrô / conexão",
+      "priority": "essencial",
+      "context": "Shinjuku é o grande terminal de saída rumo a Hakone. É fácil perder tempo caminhando dentro da estação, então a margem é deliberada.",
+      "observe": "Abra o itinerário até Odakyu Shinjuku Station e acompanhe as placas Odakyu / Romancecar. Tenha no celular o Free Pass e a confirmação de assento.",
+      "location": {
+        "query": "Odakyu Shinjuku Station, Tokyo, Japan",
+        "from": "The Kanzashi Tokyo Asakusa, Tokyo, Japan",
+        "mode": "transit"
+      },
+      "transport": "Rota do Notion: via Shin-Okachimachi e linha Toei Ōedo. Confira no Maps a alternativa mais conveniente no momento; reserve aproximadamente 45–60 min porta a porta.",
+      "next": "Apresentar-se à plataforma com antecedência do trem das 10h.",
+      "end": "09h35"
+    },
+    {
+      "id": "romancecar",
+      "time": "10h00",
+      "title": "Romancecar — Shinjuku → Hakone-Yumoto",
+      "kind": "Trem expresso reservado",
+      "priority": "essencial",
+      "context": "O Romancecar é o trem turístico expresso da Odakyu: parte da experiência de sair da metrópole e entrar na região montanhosa.",
+      "observe": "Super Hakone 9 (GSE); carro 2, assentos 12C/12D segundo o Notion. Free Pass para tarifa-base e bilhete suplementar para o assento. Confira o letreiro da plataforma.",
+      "location": {
+        "query": "Hakone-Yumoto Station, Kanagawa, Japan",
+        "from": "Odakyu Shinjuku Station, Tokyo, Japan",
+        "mode": "transit"
+      },
+      "transport": "Trem direto reservado; partida 10h00 e chegada prevista 11h21, conforme a reserva registrada no Notion.",
+      "next": "Transferência ao trem de montanha da linha Hakone Tozan.",
+      "end": "11h21"
+    },
+    {
+      "id": "carry",
+      "time": "11h25",
+      "end": "11h45",
+      "title": "Hakone-Yumoto — decidir sobre a bolsa da noite",
+      "kind": "Logística opcional",
+      "priority": "flexivel",
+      "context": "As malas grandes já seguem para Kyoto. O Hakone Carry Service é útil apenas se vocês não quiserem carregar a mochila de uma noite durante o passeio.",
+      "observe": "Serviço pago de entrega da estação ao hotel, com chegada após 15h. Confirmar atendimento ao Gora Hanaougi, preço e prazo no balcão. Se estiverem só com mochila leve, podem seguir direto ao trem de montanha.",
+      "location": {
+        "query": "Hakone-Yumoto Station Hakone Carry Service",
+        "from": "Hakone-Yumoto Station, Hakone, Japan",
+        "mode": "walking"
+      },
+      "transport": "O balcão fica na estação Hakone-Yumoto. O desvio consome tempo; se houver fila ou não for necessário, pule.",
+      "next": "Hakone Tozan Railway rumo a Gora; com parada de bagagem, a chegada a Owakudani será mais tarde.",
+      "links": [
+        {
+          "label": "Carry Service oficial",
+          "url": "https://www.hakonenavi.jp/hakone-luggage-transport-service/en/"
+        }
+      ]
+    },
+    {
+      "id": "tozan",
+      "time": "11h45",
+      "title": "Trem de montanha — Hakone-Yumoto → Gora",
+      "kind": "Hakone Tozan Railway",
+      "priority": "essencial",
+      "context": "Linha histórica de montanha famosa pelas mudanças de direção em zigue-zague (switchbacks) e pela paisagem de encostas e bosques.",
+      "observe": "Procure as mudanças de direção do trem e as cores do outono. O trecho está coberto pelo Hakone Free Pass.",
+      "location": {
+        "query": "Gora Station, Hakone, Japan",
+        "from": "Hakone-Yumoto Station, Hakone, Japan",
+        "mode": "transit"
+      },
+      "transport": "Embarque na linha Hakone Tozan para Gora. Cerca de 40 minutos, mais eventual espera.",
+      "next": "Em Gora, pegar o Cable Car até Sōunzan e fazer a conexão para o Ropeway.",
+      "end": "12h30"
+    },
+    {
+      "id": "sounzan",
+      "time": "12h35",
+      "title": "Sōunzan — conexão para o teleférico",
+      "kind": "Cable Car → Ropeway",
+      "priority": "essencial",
+      "context": "É a estação de conexão do Cable Car com o Hakone Ropeway. O Gora Hanaougi fica aqui perto, mas não compensa desviar antes do passeio se as bolsas já estiverem resolvidas.",
+      "observe": "Identifique a entrada do Ropeway em direção a Owakudani. Guarde o caminho do elevador do ryokan para a volta.",
+      "location": {
+        "query": "Sounzan Station Hakone",
+        "from": "Gora Station, Hakone, Japan",
+        "mode": "transit"
+      },
+      "transport": "Cable Car de Gora até Sōunzan (~10 min, mais espera). Não fazer check-in agora.",
+      "next": "Ropeway até Owakudani.",
+      "end": "12h50",
+      "links": [
+        {
+          "label": "Acesso oficial ao hotel",
+          "query": "Sounzan Station Hakone"
+        }
+      ]
+    },
+    {
+      "id": "owakudani",
+      "time": "13h05",
+      "title": "Owakudani — vulcão, Fuji e almoço leve",
+      "kind": "Vale vulcânico · principal passeio",
+      "priority": "essencial",
+      "context": "Owakudani é uma área de atividade geotérmica formada após uma erupção do complexo vulcânico de Hakone. O vapor e o cheiro de enxofre tornam a visita muito diferente dos templos de Tóquio.",
+      "observe": "Procure fumarolas e o mirante do Fuji se o céu estiver limpo. Experimente o kurotamago: ovo de casca preta cozido em águas geotérmicas; a tradição diz que dá sete anos extras de vida. O ovo por dentro é normal.",
+      "location": {
+        "query": "Owakudani Station, Hakone, Japan",
+        "from": "Sounzan Station, Hakone, Japan",
+        "mode": "transit"
+      },
+      "transport": "Ropeway de Sōunzan até Owakudani (~15 min, mais fila). Confira status do teleférico no dia.",
+      "next": "Às 14h10, preferir voltar para Sōunzan. Cruzeiro no lago exige folga de horário e retorno bem planejado.",
+      "end": "14h10",
+      "foods": [
+        {
+          "name": "Kurotamago (ovos pretos)",
+          "place": "Owakudani Kurotamago",
+          "why": "Snack icônico de Hakone; casca escurecida pelo processo geotérmico.",
+          "query": "Owakudani Kurotamago Kan Hakone",
+          "optional": false
+        },
+        {
+          "name": "Soba ou refeição simples",
+          "place": "Lojas/restaurantes de Owakudani",
+          "why": "Almoço leve, pois o jantar kaiseki é a atração gastronômica do dia.",
+          "query": "Owakudani restaurant Hakone",
+          "optional": true
+        }
+      ],
+      "links": [
+        {
+          "label": "Status oficial do transporte",
+          "query": "Hakone Ropeway Sounzan Owakudani"
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "time": "14h10",
+      "title": "Decisão importante — lago ou ryokan?",
+      "kind": "Ponto de decisão",
+      "priority": "essencial",
+      "context": "O objetivo da viagem a Hakone é aproveitar o ryokan, não fechar o circuito turístico a qualquer custo. Com o pôr do sol cedo, atrasos no barco/ônibus podem comprometer o onsen antes do jantar.",
+      "observe": "Recomendação: voltar a Sōunzan e chegar ao ryokan por volta de 15h. O lago só vale se forem confortáveis com check-in mais tarde e verificarem conexões reais de barco e ônibus.",
+      "location": {
+        "query": "Owakudani Station, Hakone, Japan",
+        "from": "Owakudani Station, Hakone, Japan",
+        "mode": "transit"
+      },
+      "transport": "Não é um deslocamento, mas um ponto de decisão. Se seguir ao lago, o trajeto completo será bem mais longo que a estimativa original do Notion.",
+      "next": "Opção segura: voltar para Sōunzan. Alternativa: Togendai e barco (parada opcional).",
+      "end": "14h20"
+    },
+    {
+      "id": "lake",
+      "time": "14h20",
+      "title": "Opcional — Lago Ashi e navio turístico",
+      "kind": "Paisagem + cruzeiro",
+      "priority": "opcional",
+      "context": "Passeio belo, mas acrescenta muitas conexões e pode reduzir o tempo de onsen. Não é a escolha principal do dia.",
+      "observe": "Ver paisagem das montanhas e, se houver visibilidade, o Fuji. O torii de Hakone-jinja pode aparecer na margem; não conte com tempo para caminhar até o santuário.",
+      "location": {
+        "query": "Moto-Hakone Port, Hakone, Japan",
+        "from": "Togendai Port, Hakone, Japan",
+        "mode": "transit"
+      },
+      "transport": "Owakudani → Togendai de ropeway (~30 min), barco até Moto-Hakone (~25–40 min + espera); retorno ao Gora Hanaougi por ônibus/conexões ou táxi, sem ônibus direto presumido. Só fazer se conexões e chegada ao ryokan estiverem confirmadas.",
+      "next": "Retornar obrigatoriamente ao ryokan dentro do horário de check-in (15h–18h); ideal até 16h30. Se houver atraso, corte o cruzeiro.",
+      "end": "16h30",
+      "foods": [
+        {
+          "name": "Soba/udon rápido",
+          "place": "Porto de Moto-Hakone",
+          "why": "Somente se houver tempo e fome; não sacrificar o kaiseki da noite.",
+          "query": "Moto-Hakone restaurants soba",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "ryokan",
+      "time": "15h00–16h00",
+      "title": "Gora Hanaougi — check-in e onsen",
+      "kind": "Ryokan · grande prioridade",
+      "priority": "essencial",
+      "context": "Ryokan de hospedagem tradicional com tatames, hospitalidade omotenashi e banheiras de águas termais em todos os quartos. A experiência começa ao desacelerar.",
+      "observe": "Check-in a partir de 15h. Confirmar horário do jantar (início 18h–19h) e experimentar o banho privativo com tempo, antes de se vestir para o kaiseki.",
+      "location": {
+        "query": "Gora Hanaougi, Hakone, Kanagawa, Japan",
+        "from": "Sounzan Station, Hakone, Japan",
+        "mode": "walking"
+      },
+      "transport": "De Owakudani, retornar de ropeway a Sōunzan e seguir ao elevador privativo do Gora Hanaougi. Se escolherem retornar por Gora, o hotel oferece shuttle gratuito das 14h30 às 18h após ligação (+81-460-87-7715).",
+      "next": "Confirmar horário do jantar kaiseki com a recepção.",
+      "end": "17h45"
+    },
+    {
+      "id": "kaiseki",
+      "time": "18h00",
+      "title": "Jantar kaiseki — no ryokan",
+      "kind": "Gastronomia sazonal",
+      "priority": "essencial",
+      "context": "Kaiseki é uma refeição japonesa em várias etapas, com atenção ao equilíbrio, à estação e à apresentação. Mais que quantidade, importa a sucessão de sabores e texturas.",
+      "observe": "Observe os recipientes, as pequenas porções e a apresentação de ingredientes de outono. O jantar pode começar às 18h ou 19h conforme o hotel: confirme no check-in.",
+      "location": {
+        "query": "Gora Hanaougi, Hakone, Kanagawa, Japan",
+        "from": "Gora Hanaougi, Hakone, Kanagawa, Japan",
+        "mode": "walking"
+      },
+      "transport": "Dentro do Gora Hanaougi; horário apresentado é apenas um bloco de planejamento, não reserva confirmada.",
+      "next": "Depois, descanso ou segunda sessão de onsen.",
+      "end": "20h00",
+      "foods": [
+        {
+          "name": "Jantar kaiseki sazonal",
+          "place": "Gora Hanaougi",
+          "why": "Sequência de preparos delicados e ingredientes japoneses da estação; apreciar sem pressa.",
+          "query": "Gora Hanaougi cuisine Hakone",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "time": "20h30",
+      "title": "Onsen noturno e preparar Kyoto",
+      "kind": "Descanso e logística",
+      "priority": "flexivel",
+      "context": "A montanha à noite é silenciosa; um segundo banho termal pode ser o melhor encerramento da estadia.",
+      "observe": "Separe roupas para a saída no dia seguinte e confira a rota para Odawara e o trem a Kyoto; se preferir, aproveite o banho privativo do quarto.",
+      "location": {
+        "query": "Gora Hanaougi, Hakone, Kanagawa, Japan",
+        "from": "Gora Hanaougi, Hakone, Kanagawa, Japan",
+        "mode": "walking"
+      },
+      "transport": "Sem deslocamento; noite no ryokan.",
+      "next": "Amanhã: Odawara → Kyoto e recebimento das malas no hotel."
+    }
+  ]
+}

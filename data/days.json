@@ -14,6 +14,13 @@
       "date": "2026-11-21",
       "label": "Dia 4 · Tóquio",
       "subtitle": "Tsukiji → Hamarikyū → Toyosu → Marunouchi → Nihonbashi"
+    },
+    {
+      "id": "hakone-05",
+      "file": "hakone-05.json",
+      "date": "2026-11-22",
+      "label": "Dia 5 · Hakone",
+      "subtitle": "Asakusa → Shinjuku → Hakone-Yumoto → Owakudani → Sōunzan → ryokan"
     }
   ]
 }
