@@ -28,6 +28,13 @@
       "date": "2026-11-23",
       "label": "Dia 6 · Kyoto",
       "subtitle": "Gora Hanaougi → Odawara → Kyoto → Nishiki → Gion"
+    },
+    {
+      "id": "kyoto-07",
+      "file": "kyoto-07.json",
+      "date": "2026-11-24",
+      "label": "Dia 7 · Kyoto",
+      "subtitle": "Torii ao amanhecer → Tōfuku-ji → Ninenzaka → Kiyomizu-dera → Pontochō"
     }
   ]
 }
