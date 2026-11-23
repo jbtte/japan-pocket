@@ -21,6 +21,13 @@
       "date": "2026-11-22",
       "label": "Dia 5 · Hakone",
       "subtitle": "Asakusa → Shinjuku → Hakone-Yumoto → Owakudani → Sōunzan → ryokan"
+    },
+    {
+      "id": "kyoto-06",
+      "file": "kyoto-06.json",
+      "date": "2026-11-23",
+      "label": "Dia 6 · Kyoto",
+      "subtitle": "Gora Hanaougi → Odawara → Kyoto → Nishiki → Gion"
     }
   ]
 }

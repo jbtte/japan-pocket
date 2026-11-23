@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "kyoto-06",
+  "date": "2026-11-23",
+  "dayNumber": 6,
+  "city": "Kyoto",
+  "title": "Chegada a Kyoto e noite em Gion",
+  "subtitle": "Gora Hanaougi → Odawara → Kyoto → Nishiki → Gion",
+  "intro": "Dia de deslocamento com dois compromissos intocáveis: Hikari 641 às 12h07 em Odawara e jantar reservado às 20h no Gion Nikutei Shin. Nishiki e Gion preenchem a tarde com flexibilidade. Segunda-feira 23/11 é feriado nacional no Japão.",
+  "hotel": "Agora Kyoto Karasuma",
+  "source": "https://app.notion.com/p/37b94e7781aa80dab42cca531e1a0e8c",
+  "dayInfo": {
+    "weather": {
+      "summary": "Fontes consultadas divergem entre sol e céu nublado com possibilidade de chuva. Planejar uma tarde fria e levar proteção leve para chuva.",
+      "temperature": "Máxima prevista perto de 12–15 °C; mínima e sensação térmica variam conforme a fonte.",
+      "rain": "Possibilidade de chuva; conferir antes de sair de Hakone.",
+      "tip": "Casaco em camadas, calçado confortável e guarda-chuva compacto. Gion ao anoitecer será mais frio.",
+      "updatedAt": "2026-11-22",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥6.000–12.000",
+      "unit": "por pessoa · estimativa SEM Shinkansen já reservado, hospedagem, jantar especial e compras",
+      "items": [
+        {
+          "label": "Deslocamentos locais em Kyoto + Hakone (exceto trechos cobertos pelo passe)",
+          "amount": "¥500–1.200"
+        },
+        {
+          "label": "Almoço tardio e 2–3 snacks em Nishiki",
+          "amount": "¥1.800–3.500"
+        },
+        {
+          "label": "Chá, doce ou drinque em Gion",
+          "amount": "¥1.200–3.000"
+        },
+        {
+          "label": "Reserva/imprevistos",
+          "amount": "¥2.500–4.300"
+        }
+      ],
+      "note": "O jantar reservado no Gion Nikutei Shin fica fora desta estimativa: o valor depende do menu contratado. O Hikari 641 já está reservado no planejamento. Evitar um almoço pesado antes do wagyu às 20h."
+    },
+    "suica": {
+      "recommended": "¥1.500 por pessoa",
+      "estimated": "Transporte local de Kyoto: cerca de ¥300–800 por pessoa se usarem metrô e/ou ônibus; trajeto da estação ao hotel pode ser feito de táxi (pago separadamente).",
+      "buffer": "¥2.000 por pessoa para folga",
+      "note": "O Hakone Free Pass cobre os transportes incluídos até a área de Odawara conforme a modalidade do bilhete; não cobre o Shinkansen até Kyoto. Suica/IC pode ser utilizado em linhas compatíveis em Kyoto, mas nem toda compra aceita IC."
+    },
+    "tips": [
+      "🚄 Hikari 641 reservado: Odawara 12h07 → Kyoto 14h12; carro 13, assentos 7B/7C. Bilhetes precisam ser retirados em Odawara com antecedência.",
+      "🎫 Retirada JR-WEST (5489): levar o cartão físico usado na compra e dados da reserva; procurar equipamento/guichê habilitado. Não deixar para os últimos minutos.",
+      "⏰ Não sair do ryokan às 10h30: há funicular, trem de montanha, conexão e retirada de bilhetes; plano mais seguro é começar o deslocamento por volta de 09h15.",
+      "🧳 Malas grandes foram enviadas direto para Kyoto: confirmar recebimento no Agora Kyoto Karasuma, guardando o comprovante do Takkyūbin.",
+      "🏨 Atenção ao endereço: Agora Kyoto Karasuma, na região de Shijō/Karasuma (não confundir com Agora Kyoto Shijo, que é outro hotel).",
+      "🇯🇵 23/11 é feriado japonês (Dia de Ação de Graças pelo Trabalho); Nishiki pode estar cheio e o funcionamento das bancas varia.",
+      "🔒 Jantar confirmado para 20h no Gion Nikutei Shin para 2 pessoas, segundo o Notion. Chegar alguns minutos antes.",
+      "📸 Em Gion: não perseguir maiko/geiko, não bloquear passagem e respeitar ruas privadas e placas de proibição de fotografia."
+    ]
+  },
+  "notes": [
+    "Compromissos fixos: Shinkansen 12h07 e jantar 20h. Se houver atraso, cortar primeiro Nishiki e lojas; preservar o jantar.",
+    "O Gora Hanaougi informa café da manhã das 08h às 09h (horário de início); confirmar o horário atribuído no check-in.",
+    "Deslocamento do hotel para Odawara: Sōunzan → Gora (cable car) → Hakone-Yumoto (Tozan Railway) → Odawara (Odakyu). Reservar cerca de 80–100 minutos com conexões; conferir operação no dia.",
+    "Se o hotel oferecer táxi direto a Odawara, pode ser alternativa mais previsível em caso de atrasos, mas tem custo adicional.",
+    "Kyoto Station → Agora Kyoto Karasuma: metrô Karasuma Line até Shijō + caminhada, ou táxi com bagagem.",
+    "No mercado Nishiki, priorizar 2–3 snacks e não fazer refeição pesada, pois jantar wagyu está reservado."
+  ],
+  "stops": [
+    {
+      "id": "breakfast",
+      "time": "08h00",
+      "title": "Café da manhã no Gora Hanaougi",
+      "kind": "Refeição incluída",
+      "priority": "essencial",
+      "context": "Última experiência gastronômica do ryokan, com pequenos pratos tradicionais japoneses.",
+      "observe": "Comer com tranquilidade, mas começar no primeiro horário possível; confirmar horário efetivo com o hotel.",
+      "location": {
+        "query": "Gora Hanaougi Hakone Japan"
+      },
+      "transport": "",
+      "next": "",
+      "end": "09h00"
+    },
+    {
+      "id": "departure",
+      "time": "09h15",
+      "title": "Check-out e saída para Odawara",
+      "kind": "Transporte · prioridade máxima",
+      "priority": "essencial",
+      "context": "O deslocamento atravessa a montanha e exige conexões. A saída antecipada protege a reserva do Shinkansen.",
+      "observe": "Sair do hotel até cerca de 09h15 e usar o elevador privativo até Sōunzan. Conferir plataformas e horário dos trens em cada etapa.",
+      "location": {
+        "query": "Sounzan Station Hakone Japan",
+        "from": "Gora Hanaougi Hakone Japan",
+        "mode": "walking"
+      },
+      "transport": "Sōunzan → Gora (cable car) → Hakone-Yumoto (Tozan Railway) → Odawara (Odakyu). Reserva aproximada de 80–100 minutos com conexões.",
+      "next": "Chegar a Odawara com boa margem para retirar bilhetes.",
+      "end": "10h55"
+    },
+    {
+      "id": "tickets",
+      "time": "11h00",
+      "title": "Odawara: retirar bilhetes JR-WEST",
+      "kind": "Bilhetes · obrigatório",
+      "priority": "essencial",
+      "context": "Os bilhetes do Hikari 641 foram comprados via JR-WEST Online. A retirada deve ocorrer antes da passagem pela catraca Shinkansen.",
+      "observe": "Procurar máquina/guichê com serviço 5489; ter cartão físico da compra e dados da reserva. Em seguida, localizar plataforma e comprar um lanche para o trem se necessário.",
+      "location": {
+        "query": "Odawara Station Shinkansen JR Central Japan",
+        "from": "Sounzan Station Hakone Japan",
+        "mode": "transit"
+      },
+      "transport": "Chegar com folga: máquinas e guichês podem ter fila durante o feriado.",
+      "next": "Embarcar com antecedência no Hikari 641 das 12h07.",
+      "end": "11h45",
+      "foods": [
+        {
+          "name": "Ekiben ou onigiri",
+          "place": "Lojas de Odawara Station",
+          "why": "Almoço leve e prático durante o Shinkansen, preservando o apetite para os snacks de Nishiki.",
+          "query": "Odawara Station ekiben Japan",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "shinkansen",
+      "time": "12h07",
+      "title": "Hikari 641 — Odawara → Kyoto",
+      "kind": "Trem reservado",
+      "priority": "essencial",
+      "context": "O Shinkansen Tōkaidō liga a região do Monte Fuji à antiga capital imperial.",
+      "observe": "Bilhete reservado: carro 13, assentos 7B/7C. Chegada prevista em Kyoto 14h12.",
+      "location": {
+        "query": "Kyoto Station Japan",
+        "from": "Odawara Station Japan",
+        "mode": "transit"
+      },
+      "transport": "Embarque em Odawara: observar a plataforma exibida nos painéis eletrônicos.",
+      "next": "Na chegada a Kyoto, seguir para o hotel.",
+      "end": "14h12"
+    },
+    {
+      "id": "hotel",
+      "time": "14h45",
+      "title": "Agora Kyoto Karasuma — chegada",
+      "kind": "Hospedagem",
+      "priority": "essencial",
+      "context": "Hotel na região de Shijō/Karasuma, base conveniente para caminhar até Nishiki e Gion.",
+      "observe": "Conferir se as malas enviadas de Tóquio já chegaram. Se o quarto não estiver pronto, guardar bagagem na recepção.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "from": "Kyoto Station Japan",
+        "mode": "transit"
+      },
+      "transport": "Kyoto Station → metrô Karasuma Line até Shijō e caminhada; táxi é opção confortável se houver bagagem. Não confundir Agora Kyoto Karasuma com Agora Kyoto Shijo.",
+      "next": "Seguir para Nishiki a pé se ainda houver disposição.",
+      "end": "15h15"
+    },
+    {
+      "id": "nishiki",
+      "time": "15h15",
+      "title": "Nishiki Market — cozinha de Kyoto",
+      "kind": "Mercado · opcional",
+      "priority": "alta",
+      "context": "Mercado coberto histórico conhecido como a cozinha de Kyoto, com ingredientes locais, picles e pratos preparados na hora.",
+      "observe": "Escolher apenas 2 ou 3 petiscos; provar o dashimaki tamago e observar a variedade dos tsukemono (picles). Feriado pode trazer filas e as lojas têm horários próprios.",
+      "location": {
+        "query": "Nishiki Market Kyoto Japan",
+        "from": "Agora Kyoto Karasuma Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Caminhada aproximada de 15 minutos, dependendo da entrada do mercado.",
+      "next": "Seguir para o canal Shirakawa e Tatsumi Bridge.",
+      "end": "16h20",
+      "foods": [
+        {
+          "name": "Dashimaki tamago",
+          "place": "Miki Keiran",
+          "why": "Omelete enrolado com caldo dashi, um clássico delicado da culinária de Kyoto.",
+          "query": "Miki Keiran Nishiki Market Kyoto",
+          "optional": false
+        },
+        {
+          "name": "Tsukemono",
+          "place": "Lojas de conservas de Nishiki",
+          "why": "Picles de vegetais regionais, uma tradição marcante de Kyoto.",
+          "query": "Kyoto Nishiki Market tsukemono",
+          "optional": true
+        },
+        {
+          "name": "Warabi mochi com matcha",
+          "place": "Lojas de doces de Nishiki",
+          "why": "Doce de textura macia com sabor de chá verde; ótimo para dividir.",
+          "query": "Matcha warabi mochi Nishiki Market Kyoto",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "shinbashi",
+      "time": "16h45",
+      "title": "Gion Shinbashi e Tatsumi Bridge",
+      "kind": "Passeio cultural · prioridade alta",
+      "priority": "alta",
+      "context": "Rua histórica ao longo do canal Shirakawa, cercada por casas de madeira (machiya), com uma das atmosferas mais características de Kyoto.",
+      "observe": "Observar a ponte Tatsumi, fachadas de madeira e lanternas ao anoitecer; fotografar com discrição e respeitar a circulação local.",
+      "location": {
+        "query": "Tatsumi Bridge Gion Kyoto Japan",
+        "from": "Nishiki Market Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Nishiki → Gion Shinbashi, caminhada aproximada de 20–25 minutos.",
+      "next": "Continuar para Hanamikoji.",
+      "end": "17h25"
+    },
+    {
+      "id": "hanamikoji",
+      "time": "17h30",
+      "title": "Hanamikoji — ruas tradicionais de Gion",
+      "kind": "Passeio cultural",
+      "priority": "alta",
+      "context": "Gion é um dos bairros históricos ligados às tradições das geiko e maiko e às antigas casas de chá (ochaya).",
+      "observe": "Apreciar as vielas, lanternas e fachadas; não fotografar onde houver proibição, não abordar nem perseguir artistas.",
+      "location": {
+        "query": "Hanamikoji Street Kyoto Japan",
+        "from": "Tatsumi Bridge Gion Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Caminhada curta. Se houver cansaço, descansar em café próximo até o jantar.",
+      "next": "Pequena pausa para chá ou drinque.",
+      "end": "18h30",
+      "foods": [
+        {
+          "name": "Kuzukiri",
+          "place": "Kagizen Yoshifusa",
+          "why": "Fitas translúcidas de amido de kudzu servidas frias com calda escura kuromitsu; uma especialidade tradicional.",
+          "query": "Kagizen Yoshifusa Gion Kyoto",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "pause",
+      "time": "18h45",
+      "title": "Pausa antes do jantar",
+      "kind": "Descanso · opcional",
+      "priority": "opcional",
+      "context": "Ao anoitecer, Gion fica especialmente agradável, mas um dia de viagem pode cansar bastante.",
+      "observe": "Escolher um chá, café ou pequeno drinque; evitar outro prato grande. A prioridade é chegar com calma ao jantar reservado.",
+      "location": {
+        "query": "Gion Kyoto Japan",
+        "from": "Hanamikoji Street Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Escolher local perto do restaurante, acompanhando o mapa.",
+      "next": "Estar no Gion Nikutei Shin por volta de 19h50.",
+      "end": "19h40"
+    },
+    {
+      "id": "dinner",
+      "time": "20h00",
+      "title": "Gion Nikutei Shin — jantar reservado",
+      "kind": "Reserva confirmada",
+      "priority": "essencial",
+      "context": "Restaurante de carne japonesa de alto padrão instalado em ambiente tradicional de Gion, escolhido para uma noite especial da viagem.",
+      "observe": "Reserva para 2 pessoas às 20h via Tabelog. Aproveitar os cortes de wagyu e observar a apresentação dos pratos; conferir menu contratado na chegada.",
+      "location": {
+        "query": "Gion Nikutei Shin Kyoto Japan",
+        "from": "Hanamikoji Street Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Caminhada curta dentro de Gion; chegar cerca de 10 minutos antes.",
+      "next": "Retornar ao Agora Kyoto Karasuma após o jantar.",
+      "end": "22h00"
+    },
+    {
+      "id": "return",
+      "time": "22h00",
+      "title": "Volta ao hotel",
+      "kind": "Retorno",
+      "priority": "essencial",
+      "context": "Depois do jantar, encerrar o primeiro dia em Kyoto sem acrescentar mais atrações.",
+      "observe": "Voltar de táxi se estiverem cansados; guardar energia para o dia seguinte.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "from": "Gion Nikutei Shin Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "A pé cerca de 25–35 min, ou táxi para maior conforto.",
+      "next": "Descanso."
+    }
+  ]
+}
