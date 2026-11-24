@@ -35,6 +35,13 @@
       "date": "2026-11-24",
       "label": "Dia 7 · Kyoto",
       "subtitle": "Torii ao amanhecer → Tōfuku-ji → Ninenzaka → Kiyomizu-dera → Pontochō"
+    },
+    {
+      "id": "kyoto-08",
+      "file": "kyoto-08.json",
+      "date": "2026-11-25",
+      "label": "Dia 8 · Kyoto",
+      "subtitle": "Torii ao amanhecer → folhas de outono → ruas históricas → Kiyomizu-dera"
     }
   ]
 }
