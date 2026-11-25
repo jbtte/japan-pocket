@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "kyoto-09",
+  "date": "2026-11-26",
+  "dayNumber": 9,
+  "city": "Kyoto",
+  "title": "Arashiyama e Kinkaku-ji — bambus, outono e Pavilhão Dourado",
+  "subtitle": "Bosque de bambus cedo → Tenryū-ji → ponte Togetsukyō → soba → Kinkaku-ji",
+  "intro": "Dia pensado para aproveitar Arashiyama cedo e preservar o Kinkaku-ji, que fecha às 17h. Saída do hotel às 7h; deixar Arashiyama perto de 13h15. Kiyomizu-dera iluminado é opcional à noite, pois a visita diurna de 25/11 foi abandonada por causa da multidão. Nara em 27/11 e Osaka em 28/11 continuam mantidos.",
+  "hotel": "Agora Kyoto Karasuma",
+  "source": "https://app.notion.com/p/37b94e7781aa800f8193d11efb5e8393",
+  "dayInfo": {
+    "weather": {
+      "summary": "Verificar a previsão de Kyoto antes da saída; o aplicativo não atualiza o tempo offline.",
+      "temperature": "Conferir temperatura e sensação térmica de manhã e ao anoitecer.",
+      "rain": "Verificar probabilidade de chuva antes de seguir para o bosque e os jardins.",
+      "tip": "Levar casaco em camadas e calçado confortável; Arashiyama pode ser fria pela manhã.",
+      "updatedAt": "2026-11-25",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥4.500–8.500",
+      "unit": "por pessoa, sem compras, jantar nem táxi opcional",
+      "items": [
+        {
+          "label": "Entradas Tenryū-ji e Kinkaku-ji",
+          "amount": "¥1.000–1.500"
+        },
+        {
+          "label": "Café, almoço e lanche",
+          "amount": "¥2.500–4.500"
+        },
+        {
+          "label": "Trem, ônibus e deslocamentos",
+          "amount": "¥1.000–2.500"
+        }
+      ],
+      "note": "Faixas estimativas, não preços confirmados. Táxi Arashiyama → Kinkaku-ji e eventual Kiyomizu noturno acrescentam custo. Kinkaku-ji: admissão adulta oficial ¥500."
+    },
+    "suica": {
+      "recommended": "¥2.000 por pessoa",
+      "estimated": "¥800–1.500 por pessoa em transporte público, conforme trajetos",
+      "buffer": "¥2.500 por pessoa para folga",
+      "note": "No trajeto Hankyu e em parte dos ônibus, cartão IC compatível costuma servir; manter dinheiro para templos e táxis."
+    },
+    "tips": [
+      "🎋 Entrar no bosque cedo para reduzir a chance de multidões; é aberto ao público sem ingresso.",
+      "🍁 Tenryū-ji tem abertura especial do jardim Sōgenchi às 7h30 de 14 a 30/11/2026; organizar a ordem conforme o momento da chegada.",
+      "📸 Ponte Togetsukyō e montanhas oferecem belas fotos de outono.",
+      "🍜 Yoshimura abre para almoço às 11h; se a fila comprometer o roteiro, escolher outro local.",
+      "⏱️ Objetivo principal: sair de Arashiyama por volta de 13h15 e estar no Kinkaku-ji por volta de 14h15.",
+      "🏯 Kinkaku-ji funciona das 9h às 17h; não deixar para o fim da tarde.",
+      "🚕 Táxi é alternativa para reduzir tempo entre Arashiyama e Kinkaku-ji; conferir preço antes de embarcar.",
+      "🌙 Kiyomizu-dera iluminado é extra, não obrigação. Fila poderá continuar grande.",
+      "🚂 Trem turístico Sagano Torokko não incluído: não há reserva confirmada e é fácil comprometer o horário do Kinkaku-ji.",
+      "🦌 Sexta 27/11 Nara; sábado 28/11 Osaka."
+    ]
+  },
+  "notes": [
+    "Roteiro refeito em 25/11 após visita intensa a Higashiyama, Chion-in e Shōren-in.",
+    "Prioridade: Arashiyama e Kinkaku-ji; cortar pausa longa e compras se houver atraso.",
+    "O templo Kiyomizu-dera ficou pendente por filas em 25/11; iluminação noturna em 26/11 apenas se houver disposição.",
+    "Trens, ônibus e tempos de viagem são estimativas, não horários de reserva.",
+    "Fonte original do dia de Arashiyama: Notion KYT Dia 8; adaptado à nova data e combinado com Kinkaku-ji."
+  ],
+  "stops": [
+    {
+      "id": "departure",
+      "time": "07h00",
+      "end": "07h50",
+      "title": "Saída do hotel → Arashiyama",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Viagem cedo para encontrar o bosque de bambus com menos gente.",
+      "observe": "Pegar Hankyu na região de Karasuma/Shijō, trocar em Katsura para Arashiyama e caminhar até o bosque. Confirmar trajeto real no Maps.",
+      "location": {
+        "query": "Arashiyama Bamboo Grove Kyoto Japan",
+        "mode": "transit",
+        "from": "Agora Kyoto Karasuma Kyoto Japan"
+      },
+      "transport": "Hankyu Karasuma → Katsura → Arashiyama; mais caminhada. Planejar cerca de 45–60 min no total.",
+      "next": "Entrar no bosque pelo caminho principal."
+    },
+    {
+      "id": "bamboo",
+      "time": "07h50",
+      "end": "08h35",
+      "title": "Bosque de bambus de Arashiyama",
+      "kind": "Natureza · destaque",
+      "priority": "essencial",
+      "context": "Caminho cercado por bambus altos, uma das imagens mais famosas de Kyoto.",
+      "observe": "Fotografar a luz da manhã atravessando os bambus; andar até o trecho mais bonito e respeitar as passagens.",
+      "location": {
+        "query": "Arashiyama Bamboo Grove Kyoto Japan",
+        "mode": "walking",
+        "from": "Agora Kyoto Karasuma Kyoto Japan"
+      },
+      "transport": "Caminhada livre; quanto mais tarde, maior tende a ser o movimento.",
+      "next": "Seguir para o Tenryū-ji."
+    },
+    {
+      "id": "tenryuji",
+      "time": "08h40",
+      "end": "09h45",
+      "title": "Tenryū-ji — jardim Sōgenchi",
+      "kind": "Templo zen · patrimônio mundial",
+      "priority": "essencial",
+      "context": "Fundado no século XIV, é conhecido pelo jardim paisagístico cujo lago dialoga com as montanhas de Arashiyama.",
+      "observe": "Observar os reflexos do lago, as árvores vermelhas e a paisagem das montanhas. O jardim abre especialmente às 07h30 nesta temporada; visita ao edifício depende do horário próprio.",
+      "location": {
+        "query": "Tenryu-ji Temple Kyoto Japan",
+        "mode": "walking",
+        "from": "Arashiyama Bamboo Grove Kyoto Japan"
+      },
+      "transport": "Alguns minutos a pé; jardim abre às 07h30 de 14 a 30/11/2026 conforme site oficial.",
+      "next": "Descer rumo à ponte Togetsukyō."
+    },
+    {
+      "id": "bridge",
+      "time": "10h00",
+      "end": "10h45",
+      "title": "Ponte Togetsukyō — vista do rio e montanhas",
+      "kind": "Paisagem",
+      "priority": "alta",
+      "context": "Ponte histórica sobre o rio Katsura e uma das paisagens clássicas de Arashiyama.",
+      "observe": "Ver as montanhas de outono, caminhar pelas margens e fotografar a ponte de ângulos diferentes.",
+      "location": {
+        "query": "Togetsukyo Bridge Kyoto Japan",
+        "mode": "walking",
+        "from": "Tenryu-ji Temple Kyoto Japan"
+      },
+      "transport": "Caminhada de aproximadamente 10–15 min.",
+      "next": "Almoçar cedo nas redondezas."
+    },
+    {
+      "id": "lunch",
+      "time": "11h00",
+      "end": "12h05",
+      "title": "Almoço — Arashiyama Yoshimura",
+      "kind": "Refeição",
+      "priority": "alta",
+      "context": "Restaurante de soba artesanal com vista para a ponte e para o rio.",
+      "observe": "Pedir soba com tempurá; consultar as combinações do dia. Se houver fila demorada, escolher outro soba próximo para preservar o Kinkaku-ji.",
+      "location": {
+        "query": "Arashiyama Yoshimura Kyoto Japan",
+        "mode": "walking",
+        "from": "Togetsukyo Bridge Kyoto Japan"
+      },
+      "transport": "Restaurante perto da ponte; horário de almoço divulgado a partir das 11h.",
+      "next": "Pequeno passeio final, sem alongar muito.",
+      "foods": [
+        {
+          "name": "Soba artesanal com tempurá",
+          "place": "Arashiyama Yoshimura",
+          "why": "Macarrão de trigo-sarraceno tradicional, servido frio ou quente com acompanhamentos.",
+          "query": "Arashiyama Yoshimura Kyoto Japan",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "id": "free",
+      "time": "12h05",
+      "end": "13h15",
+      "title": "Lojas de Arashiyama e café opcional",
+      "kind": "Pausa · flexível",
+      "priority": "opcional",
+      "context": "Tempo para uma sobremesa, olhar as lojas ou experimentar café antes do deslocamento ao norte.",
+      "observe": "Se o dia estiver atrasado, pular este passeio. % Arabica é uma opção conhecida, mas a fila pode ser longa.",
+      "location": {
+        "query": "Arashiyama Kyoto Japan",
+        "mode": "walking",
+        "from": "Arashiyama Yoshimura Kyoto Japan"
+      },
+      "transport": "Circular sem se afastar do ponto de embarque ou táxi.",
+      "next": "Sair pontualmente para o Kinkaku-ji.",
+      "foods": [
+        {
+          "name": "Café especial",
+          "place": "% Arabica Kyoto Arashiyama",
+          "why": "Parada opcional; avaliar fila.",
+          "query": "Arabica Kyoto Arashiyama Japan",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "time": "13h15",
+      "end": "14h15",
+      "title": "Deslocamento Arashiyama → Kinkaku-ji",
+      "kind": "Transporte · horário importante",
+      "priority": "essencial",
+      "context": "Atravessar Kyoto para visitar o Pavilhão Dourado sem arriscar o fechamento.",
+      "observe": "Escolher táxi para simplicidade e eventual economia de tempo; transporte público pela região do Randen/ônibus também é possível, mas verificar a rota no momento.",
+      "location": {
+        "query": "Kinkakuji Temple Kyoto Japan",
+        "mode": "transit",
+        "from": "Arashiyama Kyoto Japan"
+      },
+      "transport": "Reservar cerca de 1 hora; duração real varia conforme transporte, trânsito e espera.",
+      "next": "Entrar no Kinkaku-ji logo ao chegar."
+    },
+    {
+      "id": "kinkaku",
+      "time": "14h15",
+      "end": "15h30",
+      "title": "Kinkaku-ji — Pavilhão Dourado",
+      "kind": "Templo zen · prioridade máxima",
+      "priority": "essencial",
+      "context": "O Rokuon-ji é conhecido pelo pavilhão coberto com folhas de ouro, refletido no lago Kyōko-chi.",
+      "observe": "Fotografar o pavilhão e seu reflexo; completar o circuito dos jardins e observar as diferentes perspectivas.",
+      "location": {
+        "query": "Kinkakuji Temple Kyoto Japan",
+        "mode": "walking",
+        "from": "Arashiyama Kyoto Japan"
+      },
+      "transport": "Abre 09h–17h. Entrada adulta ¥500 segundo informações oficiais.",
+      "next": "Voltar ao hotel ou descansar em um café próximo."
+    },
+    {
+      "id": "return",
+      "time": "16h00",
+      "end": "17h00",
+      "title": "Volta ao hotel — descanso",
+      "kind": "Transporte",
+      "priority": "alta",
+      "context": "Depois de dois dias intensos, conservar energia para Nara no dia seguinte.",
+      "observe": "Voltar ao Agora Kyoto Karasuma e decidir o jantar sem pressa.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "mode": "transit",
+        "from": "Kinkakuji Temple Kyoto Japan"
+      },
+      "transport": "Ônibus ou táxi, conforme fila e trânsito.",
+      "next": "Noite livre ou Kiyomizu iluminado se houver energia."
+    },
+    {
+      "id": "kiyomizu-night",
+      "time": "18h00",
+      "end": "20h30",
+      "title": "OPCIONAL — Kiyomizu-dera iluminado",
+      "kind": "Templo · passeio noturno",
+      "priority": "opcional",
+      "context": "A visita diurna ficou pendente em 25/11 devido às multidões. As luzes de outono oferecem uma experiência diferente, mas também podem atrair filas.",
+      "observe": "Confirmar ingresso, fluxo de pessoas e entrada no local. Somente ir se houver disposição; não comprometer o descanso antes de Nara.",
+      "location": {
+        "query": "Kiyomizu-dera Kyoto Japan",
+        "mode": "transit",
+        "from": "Agora Kyoto Karasuma Kyoto Japan"
+      },
+      "transport": "Saída do hotel opcional. Iluminação de outono: confirmar funcionamento e última entrada no site oficial.",
+      "next": "Retornar ao hotel após a visita; se não forem, jantar tranquilo na região de Shijō."
+    }
+  ]
+}
