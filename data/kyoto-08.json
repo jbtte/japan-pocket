@@ -4,9 +4,9 @@
   "date": "2026-11-25",
   "dayNumber": 8,
   "city": "Kyoto",
-  "title": "Fushimi Inari, Tōfuku-ji e Higashiyama",
-  "subtitle": "Torii ao amanhecer → folhas de outono → ruas históricas → Kiyomizu-dera",
-  "intro": "Amanhecer nos torii de Fushimi Inari e folhas vermelhas em Tōfuku-ji. Depois, Higashiyama conforme disposição; Kiyomizu-dera diurno é opcional, pois a visita iluminada está prevista para 26/11.",
+  "title": "Fushimi Inari, Tōfuku-ji e Higashiyama até a noite",
+  "subtitle": "Torii ao amanhecer → folhas de outono → Kiyomizu-dera → Gion",
+  "intro": "Roteiro estendido após a manhã em Fushimi Inari: Tōfuku-ji, ruas históricas, almoço, Kiyomizu-dera, Yasaka e Gion até 18h30. O Kinkaku-ji passa para 26/11 junto de Arashiyama; Nara fica para 27/11 e Osaka para 28/11. Se houver energia e condições de acesso, vale permanecer em Kiyomizu para a iluminação noturna e liberar a quinta à noite.",
   "hotel": "Agora Kyoto Karasuma",
   "source": "https://app.notion.com/p/37b94e7781aa80448bafe8e272fb264a",
   "dayInfo": {
@@ -19,8 +19,8 @@
       "url": "https://www.jma.go.jp/bosai/forecast/"
     },
     "budget": {
-      "total": "¥6.000–11.000",
-      "unit": "por pessoa · sem compras e sem transporte especial de táxi opcional",
+      "total": "¥6.000–11.500",
+      "unit": "por pessoa, sem compras e sem táxi opcional",
       "items": [
         {
           "label": "Entradas Tōfuku-ji e Kiyomizu-dera",
@@ -39,34 +39,31 @@
           "amount": "¥2.000–3.500"
         }
       ],
-      "note": "Valores indicativos. Táxi cedo para Fushimi Inari pode custar aproximadamente ¥2.000–3.500 por carro e deve ser somado se utilizado. Restaurante Itsuki Chaya pode exigir reserva e custar mais do que almoço casual."
+      "note": "Estimativa para entradas, alimentação e deslocamentos do dia inteiro; transporte de táxi pago à parte. O gasto real depende das escolhas gastronômicas e de visitas pagas."
     },
     "suica": {
       "recommended": "¥1.500 por pessoa",
-      "estimated": "Trem urbano e ônibus/metrô do dia: aproximadamente ¥500–1.200 por pessoa, dependendo de táxis e caminhadas.",
+      "estimated": "¥500–1.200 por pessoa em trem e ônibus; táxi à parte.",
       "buffer": "¥2.000 por pessoa para folga",
       "note": "Táxis e lojas podem exigir pagamento separado; não confundir saldo Suica com orçamento total."
     },
     "tips": [
-      "🕕 Saída sugerida às 05h45–06h00 de táxi para Fushimi Inari; o roteiro do Notion subestima a caminhada do Agora Kyoto Karasuma até Kyoto Station.",
-      "🌅 Em novembro, às 06h ainda há pouca luz; o amanhecer acontece por volta de 06h35–06h40.",
-      "🍁 Tōfuku-ji: ponte Tsūtenkyō abre às 08h30 no período especial de outono, com entrada aproximada de ¥1.000; jardim Hojo abre às 09h.",
-      "🌧️ Se houver chuva forte, reduzir a subida no Fushimi Inari e cortar Chion-in e Shōren-in.",
-      "⛩️ Jishu-jinja, perto de Kiyomizu-dera, está fechado para obras; não planejar visita.",
-      "🎒 Dia de caminhada e escadas. Levar água e pequeno lanche, já que o início é muito cedo.",
-      "🕢 Se cansarem ao fim da tarde, retornar ao hotel; Pontochō é opcional.",
-      "🏮 Kiyomizu-dera iluminado está programado para 26/11; a visita diurna de hoje pode ser cortada sem perda do passeio noturno."
+      "⛩️ Fushimi Inari já é o primeiro passeio da manhã; seguir para Tōfuku-ji sem voltar ao hotel.",
+      "🍁 Em Tōfuku-ji, ir direto à Tsūtenkyō e observar restrições locais de fotografia.",
+      "🌇 O sol se põe perto das 16h45; programar Kiyomizu-dera diurno antes disso.",
+      "🏮 Se quiser aproveitar a iluminação especial de Kiyomizu, confirmar ingresso e horário no local; ela não precisa ser repetida em 26/11.",
+      "🛍️ Lojas de Sannenzaka podem fechar no fim da tarde: compras antes do anoitecer.",
+      "🎒 Levar água, calçado confortável e um casaco para a queda de temperatura.",
+      "🦌 Reorganização confirmada: 26/11 Arashiyama + Kinkaku-ji; 27/11 Nara; 28/11 Osaka.",
+      "💳 Suica para transporte urbano, não para entradas dos templos e todas as refeições."
     ]
   },
   "notes": [
-    "Roteiro originalmente planejado no Notion para 24/11 e transferido para quarta-feira 25/11 a pedido dos viajantes.",
-    "Horários previstos, não reservas. Prioridades: Fushimi Inari e Tōfuku-ji pela manhã; Higashiyama e Kiyomizu-dera se a chuva permitir.",
-    "O plano do Notion prevê Hotel → Kyoto Station a pé em 15 minutos, mas a caminhada real desde Shijō/Karasuma costuma ser maior; preferir táxi direto antes das 06h ou metrô/trem após confirmar primeiros horários.",
-    "No Fushimi Inari, o mirante Yotsutsuji exige subida considerável. Ajustar a meta conforme chuva e cansaço.",
-    "No Tōfuku-ji, respeitar avisos locais de restrição a fotografias na ponte.",
-    "Itsuki Chaya Kiyomizu existe, mas não há reserva confirmada. Se houver fila, escolher restaurante próximo.",
-    "Pontochō pode ficar escorregadio na chuva; não é necessário fazer o jantar em dia muito cansativo.",
-    "Replanejamento de 24/11: chuvas levaram a um dia de compras e personalização de alianças e hashis. Arashiyama foi transferido para 26/11, com Kiyomizu iluminado à noite."
+    "Atualização do roteiro em 25/11: viajantes com boa disposição após Fushimi Inari; estender Higashiyama até 18h30.",
+    "Alterações aprovadas: 26/11 Arashiyama + Kinkaku-ji; 27/11 Nara; 28/11 Osaka.",
+    "Caso optem por Kiyomizu noturno hoje, retirar a repetição de quinta-feira.",
+    "Horários são planejamento flexível, não reservas. Revisar fila e deslocamentos conforme andamento.",
+    "Fonte original: roteiro KYT Dia 7 do Notion, realocado para 25/11 e posteriormente estendido."
   ],
   "stops": [
     {
@@ -161,7 +158,7 @@
       },
       "transport": "Pode ser conveniente táxi; transporte público exige caminhada adicional.",
       "next": "Almoço na região.",
-      "end": "12h20",
+      "end": "12h15",
       "foods": [
         {
           "name": "Yatsuhashi fresco",
@@ -181,7 +178,7 @@
     },
     {
       "id": "lunch",
-      "time": "12h30",
+      "time": "12h15",
       "title": "Almoço — Itsuki Chaya Kiyomizu",
       "kind": "Refeição",
       "priority": "alta",
@@ -194,7 +191,7 @@
       },
       "transport": "Fica na área de Ninenzaka.",
       "next": "Subir até Kiyomizu-dera.",
-      "end": "13h40",
+      "end": "13h30",
       "foods": [
         {
           "name": "Kyoto Donburi Five-Variety Tasting Set",
@@ -207,77 +204,103 @@
     },
     {
       "id": "kiyomizu",
-      "time": "14h00",
+      "time": "13h45",
       "title": "Kiyomizu-dera — palco de madeira",
-      "kind": "Templo · opcional (visita noturna dia 26)",
-      "priority": "opcional",
-      "context": "Templo budista histórico construído sobre encosta, célebre por seu terraço de madeira e pela vista de Kyoto.",
-      "observe": "Ver o palco principal, a paisagem e a cachoeira Otowa. Jishu-jinja está fechado para obras. Se estiver cansado, deixar Kiyomizu para a visita iluminada de 26/11.",
+      "kind": "Templo · principal",
+      "priority": "alta",
+      "context": "Patrimônio histórico conhecido pelo terraço de madeira construído sobre a encosta de Higashiyama, com vista para a cidade e as árvores de outono.",
+      "observe": "Visitar o palco, o conjunto dos templos e a cachoeira Otowa. Se houver vontade de permanecer até a iluminação noturna, confirmar o esquema de entrada e o horário diretamente no local; o santuário Jishu-jinja está em obras.",
       "location": {
         "query": "Kiyomizu-dera Kyoto Japan",
         "from": "Itsuki Chaya Kiyomizu Kyoto Japan",
         "mode": "walking"
       },
       "transport": "Caminhada de subida em ruas inclinadas.",
-      "next": "Voltar por Chawan-zaka, se não estiver muito cansativo.",
-      "end": "15h20"
+      "next": "Descer por Sannenzaka/Chawan-zaka para conhecer lojas de cerâmica e doces.",
+      "end": "15h10"
     },
     {
-      "id": "optional",
-      "time": "15h30",
-      "title": "Chion-in e Shōren-in (somente se sobrar energia)",
-      "kind": "Bônus",
-      "priority": "opcional",
-      "context": "Dois marcos de Higashiyama: o enorme portão Sanmon do Chion-in e a tradição paisagística do Shōren-in.",
-      "observe": "Se estiver chovendo ou cansados, eliminar esta etapa e ir ao hotel.",
-      "location": {
-        "query": "Chion-in Temple Kyoto Japan",
-        "from": "Kiyomizu-dera Kyoto Japan",
-        "mode": "walking"
-      },
-      "transport": "A distância entre as áreas e a subida acumulada podem cansar.",
-      "next": "Voltar ao hotel.",
-      "end": "16h20"
-    },
-    {
-      "id": "rest",
-      "time": "16h30",
-      "title": "Hotel — descanso",
-      "kind": "Pausa",
+      "id": "shops",
+      "time": "15h10",
+      "end": "16h00",
+      "title": "Chawan-zaka — cerâmica e doces de Kyoto",
+      "kind": "Lojas tradicionais · complementar",
       "priority": "alta",
-      "context": "Acordar antes das 6h e caminhar por templos e ladeiras torna esta pausa especialmente útil.",
-      "observe": "Secar casaco e calçados se chover, carregar celular e decidir sobre o jantar sem pressão.",
+      "context": "A região de Kiyomizu é célebre pela produção de Kiyomizu-yaki, cerâmica artesanal de Kyoto.",
+      "observe": "Entrar nas lojas de tigelas e xícaras, comparar esmaltes e provar yatsuhashi ou matcha, se ainda tiver vontade.",
       "location": {
-        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "query": "Chawanzaka Kyoto Japan",
         "from": "Kiyomizu-dera Kyoto Japan",
-        "mode": "transit"
-      },
-      "transport": "Táxi pode ser melhor que ônibus em dia chuvoso.",
-      "next": "À noite, Pontochō somente se houver disposição.",
-      "end": "19h00"
-    },
-    {
-      "id": "pontocho",
-      "time": "19h30",
-      "title": "Pontochō — viela de restaurantes",
-      "kind": "Jantar · flexível",
-      "priority": "opcional",
-      "context": "Estreita rua paralela ao rio Kamo, iluminada por lanternas e tradicionalmente associada à gastronomia de Kyoto.",
-      "observe": "Passear pela viela e escolher lugar com cardápio e preço claros. Pontocho Robin é uma das referências do Notion, mas não há reserva.",
-      "location": {
-        "query": "Pontocho Alley Kyoto Japan",
-        "from": "Agora Kyoto Karasuma Kyoto Japan",
         "mode": "walking"
       },
-      "transport": "Cerca de 20–30 minutos de caminhada desde a região do hotel; táxi é alternativa na chuva.",
-      "next": "Voltar ao hotel para descansar.",
-      "end": "21h00",
+      "transport": "Descer a pé pelas ruas inclinadas; atenção aos pisos molhados.",
+      "next": "Seguir em direção a Maruyama Park e Yasaka Shrine.",
       "foods": [
         {
-          "name": "Nabe / hot pot",
-          "place": "Pontocho Robin ou izakaya com disponibilidade",
-          "why": "Refeição quente combina com noite fria ou chuvosa em Kyoto.",
-          "query": "Pontocho Robin Kyoto Japan",
+          "name": "Yatsuhashi fresco",
+          "place": "Lojas da subida de Kiyomizu",
+          "why": "Doce macio tradicional de Kyoto, recheado com pasta de feijão ou sabores sazonais.",
+          "query": "yatsuhashi near Kiyomizu dera Kyoto",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "id": "yasaka",
+      "time": "16h00",
+      "end": "17h00",
+      "title": "Maruyama Park e Yasaka Shrine",
+      "kind": "Jardim e santuário",
+      "priority": "alta",
+      "context": "O parque Maruyama conecta Higashiyama ao santuário Yasaka, centro de devoção e de festividades tradicionais de Kyoto.",
+      "observe": "Caminhar entre árvores de outono e observar as lanternas e o salão de orações do Yasaka. Se cansados, passar direto ao Gion Shirakawa.",
+      "location": {
+        "query": "Yasaka Shrine Kyoto Japan",
+        "from": "Chawanzaka Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Cerca de 15–25 min a pé desde as ruas de Kiyomizu, conforme paradas.",
+      "next": "Seguir para o canal Shirakawa e Tatsumi Bridge."
+    },
+    {
+      "id": "gion",
+      "time": "17h00",
+      "end": "18h30",
+      "title": "Gion Shirakawa e Tatsumi Bridge ao anoitecer",
+      "kind": "Passeio histórico · entardecer",
+      "priority": "alta",
+      "context": "O canal Shirakawa cruza uma área histórica de casas de chá e fachadas de madeira, especialmente atmosférica quando as lanternas se acendem.",
+      "observe": "Fotografar a ponte Tatsumi e caminhar junto ao canal. Respeitar áreas privadas e não abordar geiko ou maiko para fotos.",
+      "location": {
+        "query": "Tatsumi Bridge Gion Kyoto Japan",
+        "from": "Yasaka Shrine Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Cerca de 10–15 min a pé de Yasaka; no escuro, atenção aos caminhos.",
+      "next": "Jantar em Gion ou Pontochō; táxi de volta ao hotel se cansarem."
+    },
+    {
+      "id": "dinner",
+      "time": "18h30",
+      "end": "20h00",
+      "title": "Jantar leve em Gion ou Pontochō",
+      "kind": "Refeição · flexível",
+      "priority": "opcional",
+      "context": "Pontochō é uma viela tradicional paralela ao rio Kamo, conhecida pelos pequenos restaurantes e lanternas noturnas.",
+      "observe": "Escolher um izakaya ou nabe, sem reserva confirmada; se a energia acabou, comer perto do hotel.",
+      "location": {
+        "query": "Pontocho Alley Kyoto Japan",
+        "from": "Tatsumi Bridge Gion Kyoto Japan",
+        "mode": "walking"
+      },
+      "transport": "Gion até Pontochō: aproximadamente 15 min a pé; hotel a cerca de 20–30 min a pé ou táxi.",
+      "next": "Retorno ao Agora Kyoto Karasuma.",
+      "foods": [
+        {
+          "name": "Nabe ou tofu quente",
+          "place": "Izakaya em Gion/Pontochō",
+          "why": "Refeição quente e reconfortante após um dia longo de caminhada.",
+          "query": "Pontocho izakaya Kyoto Japan",
           "optional": true
         }
       ]
