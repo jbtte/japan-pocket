@@ -49,6 +49,13 @@
       "date": "2026-11-26",
       "label": "Dia 9 · Kyoto",
       "subtitle": "Bosque de bambus cedo → Tenryū-ji → ponte Togetsukyō → soba → Kinkaku-ji"
+    },
+    {
+      "id": "osaka-10",
+      "file": "osaka-10.json",
+      "date": "2026-11-27",
+      "label": "Dia 10 · Osaka",
+      "subtitle": "Kuromon → Doguyasuji → Shinsaibashi → Shinsekai → Dōtonbori → jantar"
     }
   ]
 }

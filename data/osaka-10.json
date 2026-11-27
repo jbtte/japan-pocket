@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-10",
+  "date": "2026-11-27",
+  "dayNumber": 10,
+  "city": "Osaka",
+  "title": "Osaka — sabores, bairros retrô e Dōtonbori iluminado",
+  "subtitle": "Kuromon → Doguyasuji → Shinsaibashi → Shinsekai → Dōtonbori → jantar",
+  "intro": "Osaka foi antecipada de 28/11 para sexta-feira 27/11. Passeio completo e sem pressa, privilegiando gastronomia de rua e Dōtonbori à noite. Castelo de Osaka permanece opcional; não prejudicar o jantar para incluí-lo. Sábado 28/11 reservado a Nara, com saída após a chuva e retorno mais cedo para arrumar malas antes do trem de domingo a Kanazawa.",
+  "hotel": "Agora Kyoto Karasuma",
+  "source": "https://app.notion.com/p/37b94e7781aa80d6925efd0253635bb1",
+  "dayInfo": {
+    "weather": {
+      "summary": "Previsão considerada pelos viajantes: céu nublado mas sem chuva durante o dia; conferir antes de sair.",
+      "temperature": "Consultar temperaturas de Kyoto e Osaka ao sair.",
+      "rain": "Previsão pode mudar; Namba Walk e Shinsaibashi-suji são alternativas cobertas.",
+      "tip": "Levar casaco leve e guarda-chuva compacto, sobretudo para o retorno à noite.",
+      "updatedAt": "2026-11-27",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥5.000–9.000",
+      "unit": "por pessoa; inclui refeições, transporte e lanches, sem compras e sem Castelo de Osaka",
+      "items": [
+        {
+          "label": "Transporte Kyoto ↔ Osaka + metrô urbano",
+          "amount": "¥1.400–2.100"
+        },
+        {
+          "label": "Petiscos Kuromon e takoyaki",
+          "amount": "¥1.000–2.000"
+        },
+        {
+          "label": "Kushikatsu em Shinsekai",
+          "amount": "¥1.000–2.000"
+        },
+        {
+          "label": "Jantar okonomiyaki",
+          "amount": "¥1.600–2.900"
+        },
+        {
+          "label": "Castelo de Osaka (somente se entrarem)",
+          "amount": "Adicional ¥1.200"
+        }
+      ],
+      "note": "Estimativas, não preços reservados; frutos do mar premium em Kuromon podem elevar bastante o total."
+    },
+    "suica": {
+      "recommended": "¥2.000 por pessoa",
+      "estimated": "¥1.400–2.100 por pessoa entre ida, volta e metrô urbano",
+      "buffer": "¥2.500 por pessoa",
+      "note": "Cartões IC compatíveis são aceitos na Hankyu e Osaka Metro; saques/consumo em restaurantes podem exigir outro meio de pagamento."
+    },
+    "tips": [
+      "🚆 Do hotel, usar estação Hankyu Karasuma → Osaka-Umeda, depois metrô Midosuji → Namba. O roteiro original citava Kintetsu Kyoto → Namba direto; há conexões e custos adicionais nessa alternativa.",
+      "🐟 Kuromon é melhor pela manhã: preços dos frutos do mar e horário das bancas variam.",
+      "🔪 Doguyasuji, perto de Kuromon, é ótima parada para utensílios, facas e cerâmicas; muitas lojas só abrem por volta de 10h–11h.",
+      "🏯 Castelo de Osaka é bônus de 2–3 horas com deslocamento: só encaixar se fizerem questão; entrada do museu ¥1.200 (2026).",
+      "🍢 Em Shinsekai, pedir kushikatsu: camarão, carne, cogumelos, legumes. Não mergulhar alimento mordido no molho compartilhado.",
+      "🌃 Preservar Dōtonbori após 17h30 para ver Glico, canal e letreiros iluminados.",
+      "🐙 Takoyaki Wanaka como lanche; jantar okonomiyaki no Mizuno, com Chibo/Fukutaro como alternativas se houver fila.",
+      "🧳 Sábado 28/11: Nara após a chuva e organizar malas; domingo 29/11: trem reservado Kyoto 09h09 para Kanazawa via Tsuruga."
+    ]
+  },
+  "notes": [
+    "Roteiro original Notion OSK Dia 11 (28/11), transferido para sexta 27/11 por decisão dos viajantes.",
+    "Prioridade máxima: tempo livre em Osaka até depois do jantar, sem impor retorno às 18h.",
+    "Castelo de Osaka preservado como opcional do roteiro original; seu deslocamento torna o dia mais cheio e não deve sacrificar a parte gastronômica.",
+    "Trem Hankyu Limited Express comum não exige reserva de assento; horários e conexões efetivos no Google Maps.",
+    "Entrada Castelo de Osaka corrigida para ¥1.200 conforme site oficial em 2026.",
+    "Preços gastronômicos e filas são estimativas; confirmar menus e funcionamento no local."
+  ],
+  "stops": [
+    {
+      "id": "departure",
+      "time": "08h00",
+      "end": "09h30",
+      "title": "Hotel → Osaka-Namba",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Viajem a Osaka com tempo para explorar o mercado pela manhã.",
+      "observe": "Caminhar até estação Hankyu Karasuma. Pegar Limited Express rumo a Osaka-Umeda; em Umeda caminhar até metrô Midosuji e seguir até Namba. Atenção: Hankyu Osaka-Umeda e Osaka Metro Umeda têm acessos diferentes.",
+      "location": {
+        "query": "Kuromon Ichiba Market Osaka Japan",
+        "from": "Agora Kyoto Karasuma Kyoto Japan",
+        "mode": "transit"
+      },
+      "transport": "Aproximadamente 70–90 min de porta a porta; Hankyu ~43 min até Umeda, depois conexão e metrô.",
+      "next": "Caminhar ao mercado Kuromon."
+    },
+    {
+      "id": "kuromon",
+      "time": "09h30",
+      "end": "10h40",
+      "title": "Kuromon Ichiba — café da manhã gastronômico",
+      "kind": "Mercado coberto · gastronomia",
+      "priority": "essencial",
+      "context": "Antigo mercado de produtos frescos, apelidado de cozinha de Osaka. Vendedores preparam peixes e petiscos na hora.",
+      "observe": "Escolher 2–3 petiscos para dividir: tamagoyaki, ostras grelhadas ou espetos de frutos do mar. Conferir preços antes de pedir caranguejo, wagyu ou ouriço.",
+      "location": {
+        "query": "Kuromon Ichiba Market Osaka Japan",
+        "from": "Namba Station Osaka Japan",
+        "mode": "walking"
+      },
+      "transport": "A pé a partir de Namba, cerca de 10–15 min.",
+      "next": "Seguir a Doguyasuji, galeria de utensílios."
+    },
+    {
+      "id": "doguyasuji",
+      "time": "10h45",
+      "end": "11h30",
+      "title": "Sennichimae Doguyasuji — lojas de cozinha",
+      "kind": "Compras culturais · galeria",
+      "priority": "recomendado",
+      "context": "Rua de lojas especializadas em utensílios de restaurantes japoneses, facas, louças, hashis e reproduções de alimentos.",
+      "observe": "Olhar facas artesanais e cerâmicas; comparar preços e verificar as regras para transporte de facas na bagagem despachada.",
+      "location": {
+        "query": "Sennichimae Doguyasuji Osaka Japan",
+        "from": "Kuromon Ichiba Market Osaka Japan",
+        "mode": "walking"
+      },
+      "transport": "Aproximadamente 5–10 min andando.",
+      "next": "Seguir para Shinsaibashi e Amerikamura."
+    },
+    {
+      "id": "shinsaibashi",
+      "time": "11h45",
+      "end": "13h10",
+      "title": "Shinsaibashi-suji e Amerikamura",
+      "kind": "Galeria coberta · bairro jovem",
+      "priority": "essencial",
+      "context": "Shinsaibashi-suji é uma longa galeria de compras; Amerikamura reúne moda vintage, grafites e referências pop.",
+      "observe": "Percorrer a galeria coberta e dar uma volta pelo Amerikamura para contrastar com os bairros tradicionais de Kyoto. Fazer almoço leve apenas se houver fome; haverá kushikatsu em Shinsekai.",
+      "location": {
+        "query": "Shinsaibashi-suji Shopping Street Osaka Japan",
+        "from": "Sennichimae Doguyasuji Osaka Japan",
+        "mode": "walking"
+      },
+      "transport": "Cerca de 20–30 min a pé; pode usar metrô se preferirem economizar pernas.",
+      "next": "Decidir se o Castelo de Osaka merece o desvio."
+    },
+    {
+      "id": "castle",
+      "time": "13h10",
+      "end": "15h10",
+      "title": "Castelo de Osaka — bônus opcional",
+      "kind": "História · museu",
+      "priority": "opcional",
+      "context": "O castelo foi associado a Toyotomi Hideyoshi e à unificação do Japão; a torre atual é uma reconstrução moderna com museu.",
+      "observe": "Somente se houver interesse. Ida e volta para o sul de Osaka tomam 2–3h, com parque e museu; entrada adulta ¥1.200. Se forem, atrasar Shinsekai para 16h30 e encurtar outras paradas, mas preservar Dōtonbori e jantar.",
+      "location": {
+        "query": "Osaka Castle Museum Osaka Japan",
+        "from": "Shinsaibashi-suji Shopping Street Osaka Japan",
+        "mode": "transit"
+      },
+      "transport": "Metrô e caminhada; conferir rota. O opcional NÃO faz parte do caminho direto para Shinsekai.",
+      "next": "Se pularem Castelo, seguir diretamente a Shinsekai e aproveitar sem pressa."
+    },
+    {
+      "id": "shinsekai",
+      "time": "14h00",
+      "end": "16h00",
+      "title": "Shinsekai — bairro retrô e kushikatsu",
+      "kind": "Bairro histórico · comida típica",
+      "priority": "essencial",
+      "context": "Atmosfera retrô de Osaka, lojas populares e a torre Tsūtenkaku. Kushikatsu são espetinhos empanados, fritos e servidos com molho.",
+      "observe": "Pedir cerca de 6–8 espetos para dividir ou como almoço tardio, conforme fome: carne, camarão, cebola, shiitake e aspargos. Daruma é opção clássica; se lotado, procurar outra casa no bairro.",
+      "location": {
+        "query": "Shinsekai Osaka Japan",
+        "from": "Shinsaibashi-suji Shopping Street Osaka Japan",
+        "mode": "transit"
+      },
+      "transport": "Metrô para Dobutsuen-mae ou Ebisucho e caminhada; se incluírem Castelo, seguir de lá conforme Maps e ajustar hora de chegada.",
+      "next": "Fotografar Tsūtenkaku e voltar à área de Namba."
+    },
+    {
+      "id": "dotonbori",
+      "time": "17h15",
+      "end": "18h15",
+      "title": "Dōtonbori — Glico, canal e letreiros",
+      "kind": "Cidade à noite · destaque máximo",
+      "priority": "essencial",
+      "context": "Principal cena de entretenimento de Osaka, famosa pelos letreiros tridimensionais e luzes refletidas no canal.",
+      "observe": "Foto na Ebisu-bashi com Glico Running Man, caminhar junto ao canal e procurar o caranguejo animado de Kani Dōraku.",
+      "location": {
+        "query": "Dotonbori Osaka Japan",
+        "from": "Shinsekai Osaka Japan",
+        "mode": "transit"
+      },
+      "transport": "Metrô via Namba ou cerca de 30 min a pé; deixar um tempo para passear antes de escurecer de vez.",
+      "next": "Parar para provar o takoyaki."
+    },
+    {
+      "id": "takoyaki",
+      "time": "18h15",
+      "end": "18h45",
+      "title": "Takoyaki Wanaka — provar a especialidade",
+      "kind": "Petisco · polvo",
+      "priority": "recomendado",
+      "context": "Bolinhas de massa com polvo, servidas quentes com molho e lascas de bonito seco.",
+      "observe": "Pedir uma porção para compartilhar e esperar esfriar um pouco antes da primeira mordida. A loja principal de Sennichimae fica a curta caminhada; confirmar a unidade mais conveniente.",
+      "location": {
+        "query": "Takoyaki Doraku Wanaka Sennichimae Osaka Japan",
+        "from": "Dotonbori Osaka Japan",
+        "mode": "walking"
+      },
+      "transport": "Cerca de 5–15 min andando, conforme unidade escolhida.",
+      "next": "Seguir ao jantar de okonomiyaki."
+    },
+    {
+      "id": "dinner",
+      "time": "19h00",
+      "end": "20h30",
+      "title": "Jantar — Okonomiyaki Mizuno",
+      "kind": "Jantar · especialidade de Osaka",
+      "priority": "essencial",
+      "context": "Casa tradicional de okonomiyaki, panqueca salgada feita na chapa; famosa pela versão com inhame japonês (yamaimo-yaki).",
+      "observe": "Pedir yamaimo-yaki ou especialidade recomendada. Fila é comum à noite: alternativas Chibo Dōtonbori ou Fukutaro; priorizar experiência sem comprometer horário de retorno.",
+      "location": {
+        "query": "Okonomiyaki Mizuno Dotonbori Osaka Japan",
+        "from": "Takoyaki Doraku Wanaka Sennichimae Osaka Japan",
+        "mode": "walking"
+      },
+      "transport": "Curta caminhada na área de Dōtonbori; sem reserva confirmada.",
+      "next": "Voltar a Kyoto pela combinação metrô + Hankyu."
+    },
+    {
+      "id": "return",
+      "time": "20h45",
+      "end": "22h15",
+      "title": "Retorno Osaka → Agora Kyoto Karasuma",
+      "kind": "Transporte · volta",
+      "priority": "essencial",
+      "context": "Volta depois do jantar, preservando a experiência noturna completa de Osaka.",
+      "observe": "Pegar Osaka Metro Midosuji de Namba até Umeda; caminhar até Hankyu Osaka-Umeda e embarcar sentido Kyoto-Kawaramachi, descendo em Karasuma. Confirmar últimos trens no Maps antes de jantar.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "from": "Okonomiyaki Mizuno Dotonbori Osaka Japan",
+        "mode": "transit"
+      },
+      "transport": "Prever 70–90 min de porta a porta; conferir conexões e última partida real no dia.",
+      "next": "Dormir; Nara no sábado por volta de 10h, se a chuva melhorar."
+    }
+  ]
+}
