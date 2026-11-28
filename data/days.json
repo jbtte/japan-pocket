@@ -63,6 +63,13 @@
       "date": "2026-11-28",
       "label": "Dia 11 · Nara",
       "subtitle": "Kintetsu-Nara → cervos → Tōdai-ji → Yoshiki-en (opcional) → almoço → Kasuga Taisha → Naramachi (opcional)"
+    },
+    {
+      "id": "osaka-11-extra",
+      "file": "osaka-11-extra.json",
+      "date": "2026-11-28",
+      "label": "Dia 11 · Osaka (extra)",
+      "subtitle": "Namba → Umeda → Shinsaibashi (mala e jantar) → Kyoto"
     }
   ]
 }

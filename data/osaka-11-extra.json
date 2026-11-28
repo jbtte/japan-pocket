@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "osaka-11-extra",
+  "date": "2026-11-28",
+  "dayNumber": 11,
+  "city": "Osaka",
+  "title": "Dia 11 Extraordinário — Osaka, segunda rodada",
+  "subtitle": "Namba → Umeda → Shinsaibashi (mala e jantar) → Kyoto",
+  "intro": "Nara terminou cedo. Chegada a Osaka prevista às 16h; priorizar o mirante ao entardecer e comprar a mala no final, antes do jantar. Confirmar horário de fechamento da loja.",
+  "hotel": "Agora Kyoto Karasuma",
+  "source": "https://www.skybldg.co.jp/en/",
+  "dayInfo": {
+    "weather": {
+      "summary": "Consultar condições locais; pôr do sol por volta de 16h48.",
+      "temperature": "Conferir temperatura atual.",
+      "rain": "Se chover, priorizar áreas internas.",
+      "tip": "Levar casaco para o mirante aberto.",
+      "updatedAt": "2026-11-28",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥4.700–6.800",
+      "unit": "por pessoa, a partir da chegada a Osaka, sem compras",
+      "items": [
+        {
+          "label": "Mirante Umeda Sky Building",
+          "amount": "¥2.000"
+        },
+        {
+          "label": "Metrô e Hankyu até Kyoto",
+          "amount": "¥900–1.300 (estimativa)"
+        },
+        {
+          "label": "Jantar e café",
+          "amount": "¥1.800–3.500"
+        }
+      ],
+      "note": "Estimativa sem compra da mala e trem de Nara; inclui deslocamentos adicionais de metrô."
+    },
+    "suica": {
+      "recommended": "¥1.500 por pessoa",
+      "estimated": "¥900–1.300",
+      "buffer": "¥1.500 por pessoa",
+      "note": "Usar Suica no metrô e na Hankyu; ingresso e refeições pagos à parte."
+    },
+    "tips": [
+      "🧳 Confirmar fechamento da loja de malas; antecipar a compra se necessário.",
+      "🚆 De Shinsaibashi, voltar via Umeda e Hankyu até Karasuma.",
+      "🧳 Amanhã: Thunderbird 9 às 09h09, Kyoto → Tsuruga, conexão para Kanazawa."
+    ]
+  },
+  "notes": [
+    "Roteiro complementar; preservar nara-11.json.",
+    "Horários aproximados, sem confirmação de filas ou reservas.",
+    "Se atrasarem, aproveitar o mirante à noite ou cortar a visita paga.",
+    "Não prolongar compras se precisarem organizar malas.",
+    "Se houver atraso, cortar Grand Front para garantir a compra antes do fechamento."
+  ],
+  "stops": [
+    {
+      "id": "namba",
+      "time": "16h00",
+      "end": "16h30",
+      "title": "Osaka-Namba → Umeda",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Chegar ao mirante antes do pôr do sol, se possível.",
+      "observe": "Pegar Midosuji Line sentido Umeda/Shin-Osaka na estação Namba. Descer em Umeda e seguir ao mirante.",
+      "location": {
+        "query": "Umeda Station Osaka Japan",
+        "mode": "transit",
+        "from": "Namba Station Osaka Japan"
+      },
+      "transport": "Metrô e caminhada; horário estimado.",
+      "next": "Seguir para Umeda Sky Building."
+    },
+    {
+      "id": "sky",
+      "time": "16h30",
+      "end": "17h45",
+      "title": "Umeda Sky Building — Osaka ao anoitecer",
+      "kind": "Mirante",
+      "priority": "essencial",
+      "context": "Mirante a 173 metros, com panorama de 360 graus.",
+      "observe": "Subir ao observatório para tentar ver o pôr do sol e a cidade iluminada. Conferir fila e ingresso.",
+      "location": {
+        "query": "Umeda Sky Building Osaka Japan",
+        "mode": "walking",
+        "from": "Umeda Station Osaka Japan"
+      },
+      "transport": "Caminhar pelas passagens em direção a Umekita e ao edifício; seguir Google Maps.",
+      "next": "Descer e seguir ao Grand Green Osaka."
+    },
+    {
+      "id": "green",
+      "time": "17h45",
+      "end": "18h15",
+      "title": "Grand Green Osaka — parque e arquitetura",
+      "kind": "Passeio urbano",
+      "priority": "flexivel",
+      "context": "Contraste entre natureza urbana e arranha-céus.",
+      "observe": "Passear pelo Umekita Park, observar arquitetura e iluminação. Se estiver frio ou chovendo, reduzir a caminhada.",
+      "location": {
+        "query": "Grand Green Osaka Umekita Park Osaka Japan",
+        "mode": "walking",
+        "from": "Umeda Sky Building Osaka Japan"
+      },
+      "transport": "A pé.",
+      "next": "Seguir ao Grand Front Osaka."
+    },
+    {
+      "id": "front",
+      "time": "18h15",
+      "end": "18h45",
+      "title": "Grand Front Osaka — café e últimas compras",
+      "kind": "Compras",
+      "priority": "opcional",
+      "context": "Pausa confortável antes do jantar.",
+      "observe": "Explorar o complexo comercial, tomar um café e aproveitar para últimas compras. Se quiserem voltar cedo, cortar esta etapa.",
+      "location": {
+        "query": "Grand Front Osaka Japan",
+        "mode": "walking",
+        "from": "Grand Green Osaka Japan"
+      },
+      "transport": "A pé.",
+      "next": "Seguir à estação Umeda para pegar o metrô até Shinsaibashi."
+    },
+    {
+      "id": "to-shinsaibashi",
+      "time": "18h45",
+      "end": "19h15",
+      "title": "Umeda → Shinsaibashi",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Voltar para comprar a mala sem carregá-la durante o passeio.",
+      "observe": "Pegar Midosuji Line sentido Namba/Tennoji; descer em Shinsaibashi.",
+      "location": {
+        "query": "Shinsaibashi Station Osaka Japan",
+        "mode": "transit",
+        "from": "Umeda Station Osaka Japan"
+      },
+      "transport": "Metrô e caminhada.",
+      "next": "Ir diretamente à loja de malas."
+    },
+    {
+      "id": "shinsaibashi",
+      "time": "19h15",
+      "end": "19h45",
+      "title": "Shinsaibashi — comprar a mala",
+      "kind": "Compras",
+      "priority": "essencial",
+      "context": "Retornar à loja visitada ontem para comprar a mala.",
+      "observe": "Ir diretamente à loja conhecida pelo casal; conferir dimensões, rodas e preço. Endereço exato não informado.",
+      "location": {
+        "query": "Shinsaibashi-suji Shopping Street Osaka Japan",
+        "mode": "walking",
+        "from": "Shinsaibashi Station Osaka Japan"
+      },
+      "transport": "A pé desde a estação Shinsaibashi.",
+      "next": "Jantar nas proximidades."
+    },
+    {
+      "id": "dinner",
+      "time": "19h45",
+      "end": "20h30",
+      "title": "Jantar em Shinsaibashi",
+      "kind": "Gastronomia",
+      "priority": "essencial",
+      "context": "Refeição próxima à loja antes do retorno.",
+      "observe": "Escolher yakitori, teishoku ou izakaya sem fila longa.",
+      "location": {
+        "query": "Shinsaibashi-suji Osaka Japan",
+        "mode": "walking",
+        "from": "Shinsaibashi Station Osaka Japan"
+      },
+      "transport": "A pé.",
+      "next": "Pegar metrô para Umeda e conectar à Hankyu."
+    },
+    {
+      "id": "hankyu",
+      "time": "20h30",
+      "end": "21h45",
+      "title": "Retorno a Kyoto — Karasuma",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Encerrar o passeio com tempo para preparar a mudança de cidade.",
+      "observe": "Pegar Midosuji Line de Shinsaibashi até Umeda. Na estação Hankyu Osaka-Umeda, pegar Kyoto Line Limited Express regular sentido Kyoto-Kawaramachi e descer em Karasuma. Caminhar ao hotel com a mala.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "mode": "transit",
+        "from": "Shinsaibashi Station Osaka Japan"
+      },
+      "transport": "Metrô, Hankyu e caminhada; conferir painel.",
+      "next": "Finalizar malas, conferir bilhetes e preparar saída de domingo."
+    }
+  ]
+}
