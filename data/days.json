@@ -56,6 +56,13 @@
       "date": "2026-11-27",
       "label": "Dia 10 · Osaka",
       "subtitle": "Kuromon → Doguyasuji → Shinsaibashi → Shinsekai → Dōtonbori → jantar"
+    },
+    {
+      "id": "nara-11",
+      "file": "nara-11.json",
+      "date": "2026-11-28",
+      "label": "Dia 11 · Nara",
+      "subtitle": "Kintetsu-Nara → cervos → Tōdai-ji → Yoshiki-en (opcional) → almoço → Kasuga Taisha → Naramachi (opcional)"
     }
   ]
 }

@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "nara-11",
+  "date": "2026-11-28",
+  "dayNumber": 11,
+  "city": "Nara",
+  "title": "Nara — cervos, Grande Buda e caminhos de lanternas",
+  "subtitle": "Kintetsu-Nara → cervos → Tōdai-ji → Yoshiki-en (opcional) → almoço → Kasuga Taisha → Naramachi (opcional)",
+  "intro": "Nara foi transferida para sábado 28/11. Começo mais tarde para aguardar a melhora do tempo; priorizar cervos, Grande Buda e Kasuga Taisha. Voltar a Kyoto no fim da tarde para organizar as malas antes do trem de domingo para Kanazawa. Horários indicativos: se saírem depois, cortar primeiro Yoshiki-en e Naramachi.",
+  "hotel": "Agora Kyoto Karasuma",
+  "source": "https://app.notion.com/p/37b94e7781aa8077bfead468a5be52b8",
+  "dayInfo": {
+    "weather": {
+      "summary": "Previsão informada pelos viajantes: chuva até cerca das 10h, seguida de tempo nublado; confirmar durante o dia.",
+      "temperature": "Conferir temperatura local antes de sair.",
+      "rain": "O piso do parque e caminhos de pedras podem continuar molhados mesmo após a chuva.",
+      "tip": "Levar guarda-chuva compacto, agasalho e calçado que suporte piso úmido.",
+      "updatedAt": "2026-11-28",
+      "url": "https://www.jma.go.jp/bosai/forecast/"
+    },
+    "budget": {
+      "total": "¥3.500–5.500",
+      "unit": "por pessoa, incluindo transporte, almoço, entrada principal e pequenos lanches; sem compras",
+      "items": [
+        {
+          "label": "Kintetsu Kyoto ↔ Kintetsu-Nara (Express regular)",
+          "amount": "cerca de ¥1.520"
+        },
+        {
+          "label": "Grande Buda / Tōdai-ji",
+          "amount": "¥800"
+        },
+        {
+          "label": "Almoço kakinoha-zushi ou refeição típica",
+          "amount": "¥1.000–2.000"
+        },
+        {
+          "label": "Biscoitos dos cervos, café e extras",
+          "amount": "¥300–1.200"
+        }
+      ],
+      "note": "Valores aproximados; Limited Express exige bilhete adicional. O parque é gratuito. Yoshiki-en é gratuito para visitantes estrangeiros com passaporte."
+    },
+    "suica": {
+      "recommended": "¥2.000 por pessoa",
+      "estimated": "¥1.520 por pessoa de trem regular ida e volta; metrô/ônibus de Kyoto podem acrescentar valor",
+      "buffer": "¥2.500 por pessoa",
+      "note": "Suica pode ser usado nas viagens regulares da Kintetsu. Limited Express exige reserva/suplemento separado."
+    },
+    "tips": [
+      "🦌 Dar aos cervos apenas shika senbei próprio para eles. Não provocar nem levantar vários biscoitos no ar.",
+      "🏯 Grande Buda é prioridade: Tōdai-ji fecha às 17h no período de novembro a março.",
+      "🌿 Yoshiki-en é opção curta e muito bonita no outono; apresentar passaporte na entrada.",
+      "🍱 Kakinoha-zushi é sushi envolto em folha de caqui, especialidade local. A folha normalmente é retirada antes de comer.",
+      "🚆 Em Kyoto, usar Kintetsu Express (急行) para Kintetsu-Nara; alguns serviços têm conexão em Yamato-Saidaiji. Evitar embarcar em Limited Express sem bilhete complementar.",
+      "🧳 Domingo 29/11: trem Kyoto 09h09 rumo a Kanazawa via Tsuruga. Finalizar malas hoje à noite; conferir envio das malas grandes se aplicável."
+    ]
+  },
+  "notes": [
+    "Fonte-base: Notion NAR Dia 10, inicialmente 27/11, realocado para sábado 28/11.",
+    "Horários adaptados para entrada mais tarde em Nara, depois da chuva matinal.",
+    "Não considerar previsão de chuva como confirmação de tempo seco após 10h; consultar radar antes de partir.",
+    "Em caso de atraso, manter Parque de Nara, Tōdai-ji e Kasuga Taisha; cortar Yoshiki-en e Naramachi primeiro.",
+    "Kōfuku-ji pode ser visto rapidamente no caminho; não é necessário entrar em museus.",
+    "Planejamento de 5–6 horas de passeio na cidade, com volta a Kyoto antes do jantar."
+  ],
+  "stops": [
+    {
+      "id": "departure",
+      "time": "09h45",
+      "end": "11h00",
+      "title": "Hotel → estação Kyoto → Kintetsu-Nara",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Sair quando a chuva estiver cedendo. Horário inicial é uma referência, não uma reserva.",
+      "observe": "Do Agora Kyoto Karasuma, seguir à estação Kyoto (metrô Karasuma Line a partir de Shijō ou táxi). Entrar no setor Kintetsu e procurar Express (急行) para Kintetsu-Nara. Pode haver conexão em Yamato-Saidaiji dependendo do trem.",
+      "location": {
+        "query": "Kintetsu Nara Station Nara Japan",
+        "mode": "transit",
+        "from": "Agora Kyoto Karasuma Kyoto Japan"
+      },
+      "transport": "Express regular em torno de 45–50 min de Kyoto; ¥760 por trajeto, por pessoa. Limited Express cobra adicional.",
+      "next": "Sair da estação em direção ao parque e ao Kōfuku-ji."
+    },
+    {
+      "id": "kofuku",
+      "time": "11h00",
+      "end": "11h20",
+      "title": "Kōfuku-ji e entrada do Parque de Nara",
+      "kind": "Templo e caminhada",
+      "priority": "extra",
+      "context": "Introdução ao centro histórico de Nara, com primeiros cervos nas áreas abertas.",
+      "observe": "Ver a área do templo e monumentos acessíveis; não perder tempo em atrações pagas aqui. Algumas estruturas podem estar em reforma.",
+      "location": {
+        "query": "Kofukuji Temple Nara Japan",
+        "mode": "walking",
+        "from": "Kintetsu Nara Station Nara Japan"
+      },
+      "transport": "Cerca de 5–10 min de caminhada.",
+      "next": "Seguir pelo parque em direção à entrada do Tōdai-ji."
+    },
+    {
+      "id": "deer",
+      "time": "11h20",
+      "end": "12h00",
+      "title": "Parque de Nara — encontro com os cervos",
+      "kind": "Natureza",
+      "priority": "essencial",
+      "context": "Cervos sika circulam livremente; este é um dos momentos centrais do passeio.",
+      "observe": "Comprar shika senbei em barracas oficiais, oferecer um de cada vez e guardar o restante. Animais podem morder ou dar cabeçadas; manter sacolas de comida fechadas.",
+      "location": {
+        "query": "Nara Park Nara Japan",
+        "mode": "walking",
+        "from": "Kofukuji Temple Nara Japan"
+      },
+      "transport": "Caminhada pelo parque em direção ao Tōdai-ji.",
+      "next": "Continuar até o grande portão Nandaimon e o salão do Buda."
+    },
+    {
+      "id": "todaiji",
+      "time": "12h00",
+      "end": "13h00",
+      "title": "Tōdai-ji — Salão do Grande Buda",
+      "kind": "Templo",
+      "priority": "essencial",
+      "context": "Grande estátua do Buda de bronze em um impressionante salão de madeira.",
+      "observe": "Observar o portão Nandaimon e seus guardiões, depois o Daibutsuden e a escala da estátua. Entrada adulta cerca de ¥800; em novembro fecha às 17h.",
+      "location": {
+        "query": "Todai ji Daibutsuden Nara Japan",
+        "mode": "walking",
+        "from": "Nara Park Nara Japan"
+      },
+      "transport": "A pé, com paradas para fotos.",
+      "next": "Se houver tempo, visitar Yoshiki-en, vizinho da zona do Tōdai-ji, antes do almoço."
+    },
+    {
+      "id": "yoshikien",
+      "time": "13h00",
+      "end": "13h35",
+      "title": "Yoshiki-en — jardim de outono (opcional)",
+      "kind": "Jardim",
+      "priority": "opcional",
+      "context": "Jardim tradicional com lago, musgo e casa de chá, próximo da zona do Tōdai-ji.",
+      "observe": "Conhecer jardins de lago, musgo e chá; apresentar passaporte estrangeiro na entrada. O jardim fica perto de Tōdai-ji; é melhor visitá-lo agora do que voltar depois de Kasuga. Última entrada por volta de 16h30.",
+      "location": {
+        "query": "Yoshikien Garden Nara Japan",
+        "mode": "walking",
+        "from": "Todai ji Daibutsuden Nara Japan"
+      },
+      "transport": "Cerca de 10–15 min a pé.",
+      "next": "Caminhar para o almoço no centro. Se a chuva persistir, pular o jardim."
+    },
+    {
+      "id": "lunch",
+      "time": "13h45",
+      "end": "14h30",
+      "title": "Almoço — kakinoha-zushi",
+      "kind": "Gastronomia",
+      "priority": "essencial",
+      "context": "Experimentar especialidade de Nara sem transformar almoço em uma longa fila.",
+      "observe": "Procurar Hiraso (柿の葉ずし 平宗) ou Kakinohasushi Hompo Tanaka no centro; pedir kakinoha-zushi com udon ou soba. Se estiverem longe de Naramachi, optar por um restaurante mais próximo do parque e adaptar o restante.",
+      "location": {
+        "query": "Hiraso Nara Japan",
+        "mode": "walking",
+        "from": "Yoshikien Garden Nara Japan"
+      },
+      "transport": "Cerca de 15–20 min a pé, conforme restaurante escolhido.",
+      "next": "Ir ao Kasuga Taisha; usar táxi/ônibus se quiserem poupar pernas."
+    },
+    {
+      "id": "kasuga",
+      "time": "14h40",
+      "end": "15h45",
+      "title": "Kasuga Taisha — lanternas e bosque",
+      "kind": "Santuário",
+      "priority": "essencial",
+      "context": "Caminhar pela floresta em caminhos com lanternas de pedra e visitar o santuário xintoísta.",
+      "observe": "Observar lanternas cobertas de musgo, árvores antigas e a arquitetura vermelha do santuário. Áreas externas gratuitas; áreas internas podem cobrar ingresso.",
+      "location": {
+        "query": "Kasuga Taisha Nara Japan",
+        "mode": "walking",
+        "from": "Hiraso Nara Japan"
+      },
+      "transport": "Caminhada variável; transporte local/táxi pode poupar tempo se necessário.",
+      "next": "Retornar ao centro via Naramachi, se ainda houver tempo."
+    },
+    {
+      "id": "naramachi",
+      "time": "15h45",
+      "end": "16h20",
+      "title": "Naramachi — ruas históricas e lembranças (opcional)",
+      "kind": "Bairro histórico",
+      "priority": "opcional",
+      "context": "Ruas de mercadores e pequenas lojas; um bônus se ainda houver energia.",
+      "observe": "Buscar artesanato com motivos de cervos e explorar algumas fachadas tradicionais. Cortar se forem organizar as malas mais cedo.",
+      "location": {
+        "query": "Naramachi Nara Japan",
+        "mode": "walking",
+        "from": "Kasuga Taisha Nara Japan"
+      },
+      "transport": "Em torno de 20–30 min a pé; se ficar tarde, seguir diretamente à estação.",
+      "next": "Voltar à estação Kintetsu-Nara."
+    },
+    {
+      "id": "return",
+      "time": "16h30",
+      "end": "18h00",
+      "title": "Retorno a Kyoto e organização das malas",
+      "kind": "Transporte",
+      "priority": "essencial",
+      "context": "Voltar com folga para o último jantar em Kyoto e preparar a saída de domingo.",
+      "observe": "Ir a Kintetsu-Nara, pegar Express para Kyoto (conexão se indicada no painel); depois voltar ao Agora Kyoto Karasuma. Confirmar bilhetes e malas para o trem de domingo às 09h09.",
+      "location": {
+        "query": "Agora Kyoto Karasuma Kyoto Japan",
+        "mode": "transit",
+        "from": "Kintetsu Nara Station Nara Japan"
+      },
+      "transport": "Cerca de 1h15–1h30 porta a porta, conforme conexões.",
+      "next": "Banho, jantar leve e finalizar malas."
+    }
+  ]
+}
